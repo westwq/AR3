@@ -1,6 +1,6 @@
 iOS
 PlayerPath?
-/Users/wesleyteo/Desktop/AR3/ios
+/Users/wesleyteo/Desktop/ios
 SceneListBegin?
 Assets/Scenes/SampleScene.unity
 SceneListEnd?
@@ -272,6 +272,7 @@ aac9c55ae7ba4b95b852a7d9c191acd1 Unity.TextMeshPro.dll:TMPro.TextMeshProUGUI
 d93f6144cc96588e54b2b28438266c8f Assembly-CSharp.dll:.PanelShowHide
 486cd95c82d8305219c352c06b776e1f Assembly-CSharp.dll:.Habitat
 4489f806767297a3c2c53b453e292a2d Assembly-CSharp.dll:.VideoController
+f539a70ea873a9d689ad3d980223dbf7 Assembly-CSharp.dll:.Compass
 e04611b8715e6833d2bd7010fc6be10b Unity.TextMeshPro.dll:TMPro.TMP_StyleSheet
 073596f50db687ddccba38e840df4bee Assembly-CSharp.dll:.ObjectRecoTrackableEventHandler
 2f9af06a78208a67db480e9bfed4a076 Unity.TextMeshPro.dll:TMPro.TextMeshPro
@@ -345,4 +346,3 @@ aa5e3523afd7fd907d3f99da4b777fdc Vuforia.UnityExtensions.dll:Vuforia.VuforiaConf
 c8a41ce4eea7677f6dd2aa0e422a2f04 Vuforia.UnityExtensions.dll:Vuforia.VuMarkBehaviour
 c31ff9acb65f7a15b5c6fd77c3314d83 Vuforia.UnityExtensions.dll:Vuforia.WireframeBehaviour
 486cd95c82d8305219c352c06b776e1f Vuforia.UnityExtensions.dll:Vuforia.WireframeTrackableEventHandler
-f539a70ea873a9d689ad3d980223dbf7 Assembly-CSharp.dll:.compass

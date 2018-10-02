@@ -154,6 +154,10 @@ struct AugmentationObjectU5BU5D_t3046916412;
 struct CloudRecoEventHandler_t613522768;
 // CloudRecoTrackableEventHandler
 struct CloudRecoTrackableEventHandler_t3792508927;
+// Compass
+struct Compass_t1494106852;
+// Compass/<InitializeLocation>c__Iterator0
+struct U3CInitializeLocationU3Ec__Iterator0_t781553934;
 // DefaultInitializationErrorHandler
 struct DefaultInitializationErrorHandler_t3109936861;
 // DefaultTrackableEventHandler
@@ -714,10 +718,6 @@ struct VuforiaRuntime_t1949122020;
 struct WorldCenterTrackableBehaviour_t632567575;
 // VuforiaMonoBehaviour
 struct VuforiaMonoBehaviour_t1150221792;
-// compass
-struct compass_t1494105860;
-// compass/<InitializeLocation>c__Iterator0
-struct U3CInitializeLocationU3Ec__Iterator0_t3117843726;
 
 extern RuntimeClass* AboutScreenInfo_t2560997449_il2cpp_TypeInfo_var;
 extern RuntimeClass* AboutScreenSample_t2468051143_il2cpp_TypeInfo_var;
@@ -732,6 +732,7 @@ extern RuntimeClass* Augmentation_t2596699517_il2cpp_TypeInfo_var;
 extern RuntimeClass* Boolean_t97287965_il2cpp_TypeInfo_var;
 extern RuntimeClass* Byte_t1134296376_il2cpp_TypeInfo_var;
 extern RuntimeClass* CameraDevice_t960297568_il2cpp_TypeInfo_var;
+extern RuntimeClass* Compass_t1494106852_il2cpp_TypeInfo_var;
 extern RuntimeClass* Debug_t3317548046_il2cpp_TypeInfo_var;
 extern RuntimeClass* DelegateMessageBoxButtonAction_t4209070917_il2cpp_TypeInfo_var;
 extern RuntimeClass* DeviceTrackerARController_t1095592542_il2cpp_TypeInfo_var;
@@ -767,6 +768,7 @@ extern RuntimeClass* Int32_t2950945753_il2cpp_TypeInfo_var;
 extern RuntimeClass* IntPtr_t_il2cpp_TypeInfo_var;
 extern RuntimeClass* List_1_t537414295_il2cpp_TypeInfo_var;
 extern RuntimeClass* LoadingScreen_t2154736699_il2cpp_TypeInfo_var;
+extern RuntimeClass* Loc_t3720321912_il2cpp_TypeInfo_var;
 extern RuntimeClass* MaterialU5BU5D_t561872642_il2cpp_TypeInfo_var;
 extern RuntimeClass* Mathf_t3464937446_il2cpp_TypeInfo_var;
 extern RuntimeClass* MenuItem_t4061609034_il2cpp_TypeInfo_var;
@@ -789,7 +791,7 @@ extern RuntimeClass* Trackable_t2451999991_il2cpp_TypeInfo_var;
 extern RuntimeClass* Type_t_il2cpp_TypeInfo_var;
 extern RuntimeClass* U3CDelayOnButtonReleasedEventU3Ec__Iterator0_t2119283297_il2cpp_TypeInfo_var;
 extern RuntimeClass* U3CFadeOutQualityDialogU3Ec__Iterator0_t2977426494_il2cpp_TypeInfo_var;
-extern RuntimeClass* U3CInitializeLocationU3Ec__Iterator0_t3117843726_il2cpp_TypeInfo_var;
+extern RuntimeClass* U3CInitializeLocationU3Ec__Iterator0_t781553934_il2cpp_TypeInfo_var;
 extern RuntimeClass* U3CLoadNextSceneAfterU3Ec__Iterator0_t994227170_il2cpp_TypeInfo_var;
 extern RuntimeClass* U3CLoadNextSceneAsyncU3Ec__Iterator0_t1387414151_il2cpp_TypeInfo_var;
 extern RuntimeClass* U3CRestoreOriginalFocusModeU3Ec__Iterator0_t2912012229_il2cpp_TypeInfo_var;
@@ -1010,6 +1012,7 @@ extern String_t* _stringLiteral3452614523;
 extern String_t* _stringLiteral3452614528;
 extern String_t* _stringLiteral3452614529;
 extern String_t* _stringLiteral3452614535;
+extern String_t* _stringLiteral3452614550;
 extern String_t* _stringLiteral3452614566;
 extern String_t* _stringLiteral3452614641;
 extern String_t* _stringLiteral3453007782;
@@ -1241,7 +1244,7 @@ extern const RuntimeMethod* TrackableSettings_OnVuforiaInitialized_m491189749_Ru
 extern const RuntimeMethod* TrackableSettings_OnVuforiaStarted_m1428112215_RuntimeMethod_var;
 extern const RuntimeMethod* U3CDelayOnButtonReleasedEventU3Ec__Iterator0_Reset_m3669565378_RuntimeMethod_var;
 extern const RuntimeMethod* U3CFadeOutQualityDialogU3Ec__Iterator0_Reset_m492261578_RuntimeMethod_var;
-extern const RuntimeMethod* U3CInitializeLocationU3Ec__Iterator0_Reset_m357655894_RuntimeMethod_var;
+extern const RuntimeMethod* U3CInitializeLocationU3Ec__Iterator0_Reset_m4067987123_RuntimeMethod_var;
 extern const RuntimeMethod* U3CLoadNextSceneAfterU3Ec__Iterator0_Reset_m3376656304_RuntimeMethod_var;
 extern const RuntimeMethod* U3CLoadNextSceneAsyncU3Ec__Iterator0_Reset_m1390081207_RuntimeMethod_var;
 extern const RuntimeMethod* U3CRestoreOriginalFocusModeU3Ec__Iterator0_Reset_m884766291_RuntimeMethod_var;
@@ -1310,6 +1313,10 @@ extern const uint32_t CloudRecoEventHandler_Update_m3504320578_MetadataUsageId;
 extern const uint32_t CloudRecoTrackableEventHandler_OnTrackingFound_m1253569269_MetadataUsageId;
 extern const uint32_t CloudRecoTrackableEventHandler_OnTrackingLost_m3645293297_MetadataUsageId;
 extern const uint32_t CloudRecoTrackableEventHandler_Start_m2253835541_MetadataUsageId;
+extern const uint32_t Compass_Awake_m2159721874_MetadataUsageId;
+extern const uint32_t Compass_InitializeLocation_m2476526045_MetadataUsageId;
+extern const uint32_t Compass_Start_m808901726_MetadataUsageId;
+extern const uint32_t Compass_Update_m1513939206_MetadataUsageId;
 extern const uint32_t DefaultInitializationErrorHandler_Awake_m1713298888_MetadataUsageId;
 extern const uint32_t DefaultInitializationErrorHandler_CreateSinglePixelTexture_m424000749_MetadataUsageId;
 extern const uint32_t DefaultInitializationErrorHandler_DrawWindowContent_m2208378571_MetadataUsageId;
@@ -1451,8 +1458,8 @@ extern const uint32_t U3CDelayOnButtonReleasedEventU3Ec__Iterator0_MoveNext_m153
 extern const uint32_t U3CDelayOnButtonReleasedEventU3Ec__Iterator0_Reset_m3669565378_MetadataUsageId;
 extern const uint32_t U3CFadeOutQualityDialogU3Ec__Iterator0_MoveNext_m2636230838_MetadataUsageId;
 extern const uint32_t U3CFadeOutQualityDialogU3Ec__Iterator0_Reset_m492261578_MetadataUsageId;
-extern const uint32_t U3CInitializeLocationU3Ec__Iterator0_MoveNext_m55003962_MetadataUsageId;
-extern const uint32_t U3CInitializeLocationU3Ec__Iterator0_Reset_m357655894_MetadataUsageId;
+extern const uint32_t U3CInitializeLocationU3Ec__Iterator0_MoveNext_m2927710547_MetadataUsageId;
+extern const uint32_t U3CInitializeLocationU3Ec__Iterator0_Reset_m4067987123_MetadataUsageId;
 extern const uint32_t U3CLoadNextSceneAfterU3Ec__Iterator0_MoveNext_m3855908786_MetadataUsageId;
 extern const uint32_t U3CLoadNextSceneAfterU3Ec__Iterator0_Reset_m3376656304_MetadataUsageId;
 extern const uint32_t U3CLoadNextSceneAsyncU3Ec__Iterator0_MoveNext_m1732290129_MetadataUsageId;
@@ -1500,9 +1507,6 @@ extern const uint32_t VuMarkHandler_ShowPanelAfter_m629699576_MetadataUsageId;
 extern const uint32_t VuMarkHandler_Start_m3241718565_MetadataUsageId;
 extern const uint32_t VuMarkHandler_UpdateClosestTarget_m1555317948_MetadataUsageId;
 extern const uint32_t VuMarkTrackableEventHandler_OnTrackingFound_m169796950_MetadataUsageId;
-extern const uint32_t compass_InitializeLocation_m1343124910_MetadataUsageId;
-extern const uint32_t compass_Start_m807882942_MetadataUsageId;
-extern const uint32_t compass_Update_m1480319270_MetadataUsageId;
 struct GUIStyleState_t1397964415_marshaled_com;
 struct GUIStyleState_t1397964415_marshaled_pinvoke;
 struct GUIStyle_t3956901511_marshaled_com;
@@ -1833,6 +1837,66 @@ public:
 #pragma clang diagnostic pop
 #endif
 #endif // AUGMENTATIONOBJECT_T2464659745_H
+#ifndef U3CINITIALIZELOCATIONU3EC__ITERATOR0_T781553934_H
+#define U3CINITIALIZELOCATIONU3EC__ITERATOR0_T781553934_H
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+
+// Compass/<InitializeLocation>c__Iterator0
+struct  U3CInitializeLocationU3Ec__Iterator0_t781553934  : public RuntimeObject
+{
+public:
+	// System.Int32 Compass/<InitializeLocation>c__Iterator0::<maxSecondsToWaitForLocation>__0
+	int32_t ___U3CmaxSecondsToWaitForLocationU3E__0_0;
+	// System.Object Compass/<InitializeLocation>c__Iterator0::$current
+	RuntimeObject * ___U24current_1;
+	// System.Boolean Compass/<InitializeLocation>c__Iterator0::$disposing
+	bool ___U24disposing_2;
+	// System.Int32 Compass/<InitializeLocation>c__Iterator0::$PC
+	int32_t ___U24PC_3;
+
+public:
+	inline static int32_t get_offset_of_U3CmaxSecondsToWaitForLocationU3E__0_0() { return static_cast<int32_t>(offsetof(U3CInitializeLocationU3Ec__Iterator0_t781553934, ___U3CmaxSecondsToWaitForLocationU3E__0_0)); }
+	inline int32_t get_U3CmaxSecondsToWaitForLocationU3E__0_0() const { return ___U3CmaxSecondsToWaitForLocationU3E__0_0; }
+	inline int32_t* get_address_of_U3CmaxSecondsToWaitForLocationU3E__0_0() { return &___U3CmaxSecondsToWaitForLocationU3E__0_0; }
+	inline void set_U3CmaxSecondsToWaitForLocationU3E__0_0(int32_t value)
+	{
+		___U3CmaxSecondsToWaitForLocationU3E__0_0 = value;
+	}
+
+	inline static int32_t get_offset_of_U24current_1() { return static_cast<int32_t>(offsetof(U3CInitializeLocationU3Ec__Iterator0_t781553934, ___U24current_1)); }
+	inline RuntimeObject * get_U24current_1() const { return ___U24current_1; }
+	inline RuntimeObject ** get_address_of_U24current_1() { return &___U24current_1; }
+	inline void set_U24current_1(RuntimeObject * value)
+	{
+		___U24current_1 = value;
+		Il2CppCodeGenWriteBarrier((&___U24current_1), value);
+	}
+
+	inline static int32_t get_offset_of_U24disposing_2() { return static_cast<int32_t>(offsetof(U3CInitializeLocationU3Ec__Iterator0_t781553934, ___U24disposing_2)); }
+	inline bool get_U24disposing_2() const { return ___U24disposing_2; }
+	inline bool* get_address_of_U24disposing_2() { return &___U24disposing_2; }
+	inline void set_U24disposing_2(bool value)
+	{
+		___U24disposing_2 = value;
+	}
+
+	inline static int32_t get_offset_of_U24PC_3() { return static_cast<int32_t>(offsetof(U3CInitializeLocationU3Ec__Iterator0_t781553934, ___U24PC_3)); }
+	inline int32_t get_U24PC_3() const { return ___U24PC_3; }
+	inline int32_t* get_address_of_U24PC_3() { return &___U24PC_3; }
+	inline void set_U24PC_3(int32_t value)
+	{
+		___U24PC_3 = value;
+	}
+};
+
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#endif // U3CINITIALIZELOCATIONU3EC__ITERATOR0_T781553934_H
 #ifndef U3CLOADNEXTSCENEASYNCU3EC__ITERATOR0_T1387414151_H
 #define U3CLOADNEXTSCENEASYNCU3EC__ITERATOR0_T1387414151_H
 #ifdef __clang__
@@ -3612,66 +3676,6 @@ public:
 #pragma clang diagnostic pop
 #endif
 #endif // VUMARKMANAGER_T2982459596_H
-#ifndef U3CINITIALIZELOCATIONU3EC__ITERATOR0_T3117843726_H
-#define U3CINITIALIZELOCATIONU3EC__ITERATOR0_T3117843726_H
-#ifdef __clang__
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Winvalid-offsetof"
-#pragma clang diagnostic ignored "-Wunused-variable"
-#endif
-
-// compass/<InitializeLocation>c__Iterator0
-struct  U3CInitializeLocationU3Ec__Iterator0_t3117843726  : public RuntimeObject
-{
-public:
-	// System.Int32 compass/<InitializeLocation>c__Iterator0::<maxSecondsToWaitForLocation>__0
-	int32_t ___U3CmaxSecondsToWaitForLocationU3E__0_0;
-	// System.Object compass/<InitializeLocation>c__Iterator0::$current
-	RuntimeObject * ___U24current_1;
-	// System.Boolean compass/<InitializeLocation>c__Iterator0::$disposing
-	bool ___U24disposing_2;
-	// System.Int32 compass/<InitializeLocation>c__Iterator0::$PC
-	int32_t ___U24PC_3;
-
-public:
-	inline static int32_t get_offset_of_U3CmaxSecondsToWaitForLocationU3E__0_0() { return static_cast<int32_t>(offsetof(U3CInitializeLocationU3Ec__Iterator0_t3117843726, ___U3CmaxSecondsToWaitForLocationU3E__0_0)); }
-	inline int32_t get_U3CmaxSecondsToWaitForLocationU3E__0_0() const { return ___U3CmaxSecondsToWaitForLocationU3E__0_0; }
-	inline int32_t* get_address_of_U3CmaxSecondsToWaitForLocationU3E__0_0() { return &___U3CmaxSecondsToWaitForLocationU3E__0_0; }
-	inline void set_U3CmaxSecondsToWaitForLocationU3E__0_0(int32_t value)
-	{
-		___U3CmaxSecondsToWaitForLocationU3E__0_0 = value;
-	}
-
-	inline static int32_t get_offset_of_U24current_1() { return static_cast<int32_t>(offsetof(U3CInitializeLocationU3Ec__Iterator0_t3117843726, ___U24current_1)); }
-	inline RuntimeObject * get_U24current_1() const { return ___U24current_1; }
-	inline RuntimeObject ** get_address_of_U24current_1() { return &___U24current_1; }
-	inline void set_U24current_1(RuntimeObject * value)
-	{
-		___U24current_1 = value;
-		Il2CppCodeGenWriteBarrier((&___U24current_1), value);
-	}
-
-	inline static int32_t get_offset_of_U24disposing_2() { return static_cast<int32_t>(offsetof(U3CInitializeLocationU3Ec__Iterator0_t3117843726, ___U24disposing_2)); }
-	inline bool get_U24disposing_2() const { return ___U24disposing_2; }
-	inline bool* get_address_of_U24disposing_2() { return &___U24disposing_2; }
-	inline void set_U24disposing_2(bool value)
-	{
-		___U24disposing_2 = value;
-	}
-
-	inline static int32_t get_offset_of_U24PC_3() { return static_cast<int32_t>(offsetof(U3CInitializeLocationU3Ec__Iterator0_t3117843726, ___U24PC_3)); }
-	inline int32_t get_U24PC_3() const { return ___U24PC_3; }
-	inline int32_t* get_address_of_U24PC_3() { return &___U24PC_3; }
-	inline void set_U24PC_3(int32_t value)
-	{
-		___U24PC_3 = value;
-	}
-};
-
-#ifdef __clang__
-#pragma clang diagnostic pop
-#endif
-#endif // U3CINITIALIZELOCATIONU3EC__ITERATOR0_T3117843726_H
 #ifndef BOOLEAN_T97287965_H
 #define BOOLEAN_T97287965_H
 #ifdef __clang__
@@ -5865,6 +5869,35 @@ public:
 #pragma clang diagnostic pop
 #endif
 #endif // ABOUTSCREENSAMPLE_T2468051143_H
+#ifndef LOC_T3720321912_H
+#define LOC_T3720321912_H
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+
+// Compass/Loc
+struct  Loc_t3720321912 
+{
+public:
+	// System.Int32 Compass/Loc::value__
+	int32_t ___value___1;
+
+public:
+	inline static int32_t get_offset_of_value___1() { return static_cast<int32_t>(offsetof(Loc_t3720321912, ___value___1)); }
+	inline int32_t get_value___1() const { return ___value___1; }
+	inline int32_t* get_address_of_value___1() { return &___value___1; }
+	inline void set_value___1(int32_t value)
+	{
+		___value___1 = value;
+	}
+};
+
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#endif // LOC_T3720321912_H
 #ifndef PLANEMODE_T282559100_H
 #define PLANEMODE_T282559100_H
 #ifdef __clang__
@@ -12980,6 +13013,93 @@ public:
 #pragma clang diagnostic pop
 #endif
 #endif // CLOUDRECOEVENTHANDLER_T613522768_H
+#ifndef COMPASS_T1494106852_H
+#define COMPASS_T1494106852_H
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+
+// Compass
+struct  Compass_t1494106852  : public MonoBehaviour_t3962482529
+{
+public:
+	// System.Single Compass::heading
+	float ___heading_4;
+	// UnityEngine.UI.Text Compass::txt
+	Text_t1901882714 * ___txt_5;
+	// System.Single Compass::b31Heading
+	float ___b31Heading_7;
+	// System.Single Compass::b27Heading
+	float ___b27Heading_8;
+	// System.Single Compass::bound
+	float ___bound_9;
+
+public:
+	inline static int32_t get_offset_of_heading_4() { return static_cast<int32_t>(offsetof(Compass_t1494106852, ___heading_4)); }
+	inline float get_heading_4() const { return ___heading_4; }
+	inline float* get_address_of_heading_4() { return &___heading_4; }
+	inline void set_heading_4(float value)
+	{
+		___heading_4 = value;
+	}
+
+	inline static int32_t get_offset_of_txt_5() { return static_cast<int32_t>(offsetof(Compass_t1494106852, ___txt_5)); }
+	inline Text_t1901882714 * get_txt_5() const { return ___txt_5; }
+	inline Text_t1901882714 ** get_address_of_txt_5() { return &___txt_5; }
+	inline void set_txt_5(Text_t1901882714 * value)
+	{
+		___txt_5 = value;
+		Il2CppCodeGenWriteBarrier((&___txt_5), value);
+	}
+
+	inline static int32_t get_offset_of_b31Heading_7() { return static_cast<int32_t>(offsetof(Compass_t1494106852, ___b31Heading_7)); }
+	inline float get_b31Heading_7() const { return ___b31Heading_7; }
+	inline float* get_address_of_b31Heading_7() { return &___b31Heading_7; }
+	inline void set_b31Heading_7(float value)
+	{
+		___b31Heading_7 = value;
+	}
+
+	inline static int32_t get_offset_of_b27Heading_8() { return static_cast<int32_t>(offsetof(Compass_t1494106852, ___b27Heading_8)); }
+	inline float get_b27Heading_8() const { return ___b27Heading_8; }
+	inline float* get_address_of_b27Heading_8() { return &___b27Heading_8; }
+	inline void set_b27Heading_8(float value)
+	{
+		___b27Heading_8 = value;
+	}
+
+	inline static int32_t get_offset_of_bound_9() { return static_cast<int32_t>(offsetof(Compass_t1494106852, ___bound_9)); }
+	inline float get_bound_9() const { return ___bound_9; }
+	inline float* get_address_of_bound_9() { return &___bound_9; }
+	inline void set_bound_9(float value)
+	{
+		___bound_9 = value;
+	}
+};
+
+struct Compass_t1494106852_StaticFields
+{
+public:
+	// Compass Compass::instance
+	Compass_t1494106852 * ___instance_6;
+
+public:
+	inline static int32_t get_offset_of_instance_6() { return static_cast<int32_t>(offsetof(Compass_t1494106852_StaticFields, ___instance_6)); }
+	inline Compass_t1494106852 * get_instance_6() const { return ___instance_6; }
+	inline Compass_t1494106852 ** get_address_of_instance_6() { return &___instance_6; }
+	inline void set_instance_6(Compass_t1494106852 * value)
+	{
+		___instance_6 = value;
+		Il2CppCodeGenWriteBarrier((&___instance_6), value);
+	}
+};
+
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#endif // COMPASS_T1494106852_H
 #ifndef DEFAULTTRACKABLEEVENTHANDLER_T1588957063_H
 #define DEFAULTTRACKABLEEVENTHANDLER_T1588957063_H
 #ifdef __clang__
@@ -15308,46 +15428,6 @@ public:
 #pragma clang diagnostic pop
 #endif
 #endif // VUFORIAMONOBEHAVIOUR_T1150221792_H
-#ifndef COMPASS_T1494105860_H
-#define COMPASS_T1494105860_H
-#ifdef __clang__
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Winvalid-offsetof"
-#pragma clang diagnostic ignored "-Wunused-variable"
-#endif
-
-// compass
-struct  compass_t1494105860  : public MonoBehaviour_t3962482529
-{
-public:
-	// System.Single compass::heading
-	float ___heading_4;
-	// UnityEngine.UI.Text compass::txt
-	Text_t1901882714 * ___txt_5;
-
-public:
-	inline static int32_t get_offset_of_heading_4() { return static_cast<int32_t>(offsetof(compass_t1494105860, ___heading_4)); }
-	inline float get_heading_4() const { return ___heading_4; }
-	inline float* get_address_of_heading_4() { return &___heading_4; }
-	inline void set_heading_4(float value)
-	{
-		___heading_4 = value;
-	}
-
-	inline static int32_t get_offset_of_txt_5() { return static_cast<int32_t>(offsetof(compass_t1494105860, ___txt_5)); }
-	inline Text_t1901882714 * get_txt_5() const { return ___txt_5; }
-	inline Text_t1901882714 ** get_address_of_txt_5() { return &___txt_5; }
-	inline void set_txt_5(Text_t1901882714 * value)
-	{
-		___txt_5 = value;
-		Il2CppCodeGenWriteBarrier((&___txt_5), value);
-	}
-};
-
-#ifdef __clang__
-#pragma clang diagnostic pop
-#endif
-#endif // COMPASS_T1494105860_H
 #ifndef ASTRONAUT_T1874369735_H
 #define ASTRONAUT_T1874369735_H
 #ifdef __clang__
@@ -19057,6 +19137,28 @@ extern "C" IL2CPP_METHOD_ATTR void DefaultTrackableEventHandler_OnTrackingFound_
 extern "C" IL2CPP_METHOD_ATTR void CloudRecoEventHandler_TrackingFound_m2037794778 (CloudRecoEventHandler_t613522768 * __this, const RuntimeMethod* method);
 // System.Void DefaultTrackableEventHandler::OnTrackingLost()
 extern "C" IL2CPP_METHOD_ATTR void DefaultTrackableEventHandler_OnTrackingLost_m424172778 (DefaultTrackableEventHandler_t1588957063 * __this, const RuntimeMethod* method);
+// System.Collections.IEnumerator Compass::InitializeLocation()
+extern "C" IL2CPP_METHOD_ATTR RuntimeObject* Compass_InitializeLocation_m2476526045 (Compass_t1494106852 * __this, const RuntimeMethod* method);
+// System.Void Compass/<InitializeLocation>c__Iterator0::.ctor()
+extern "C" IL2CPP_METHOD_ATTR void U3CInitializeLocationU3Ec__Iterator0__ctor_m3783146344 (U3CInitializeLocationU3Ec__Iterator0_t781553934 * __this, const RuntimeMethod* method);
+// UnityEngine.Compass UnityEngine.Input::get_compass()
+extern "C" IL2CPP_METHOD_ATTR Compass_t3092386685 * Input_get_compass_m4226377434 (RuntimeObject * __this /* static, unused */, const RuntimeMethod* method);
+// System.Single UnityEngine.Compass::get_trueHeading()
+extern "C" IL2CPP_METHOD_ATTR float Compass_get_trueHeading_m400403221 (Compass_t3092386685 * __this, const RuntimeMethod* method);
+// System.String System.Single::ToString()
+extern "C" IL2CPP_METHOD_ATTR String_t* Single_ToString_m3947131094 (float* __this, const RuntimeMethod* method);
+// Compass/Loc Compass::GetLoc()
+extern "C" IL2CPP_METHOD_ATTR int32_t Compass_GetLoc_m2820561307 (Compass_t1494106852 * __this, const RuntimeMethod* method);
+// UnityEngine.LocationService UnityEngine.Input::get_location()
+extern "C" IL2CPP_METHOD_ATTR LocationService_t2839639379 * Input_get_location_m1744795999 (RuntimeObject * __this /* static, unused */, const RuntimeMethod* method);
+// System.Boolean UnityEngine.LocationService::get_isEnabledByUser()
+extern "C" IL2CPP_METHOD_ATTR bool LocationService_get_isEnabledByUser_m3325769302 (LocationService_t2839639379 * __this, const RuntimeMethod* method);
+// System.Void UnityEngine.Compass::set_enabled(System.Boolean)
+extern "C" IL2CPP_METHOD_ATTR void Compass_set_enabled_m3413005128 (Compass_t3092386685 * __this, bool p0, const RuntimeMethod* method);
+// System.Void UnityEngine.LocationService::Start(System.Single,System.Single)
+extern "C" IL2CPP_METHOD_ATTR void LocationService_Start_m970336927 (LocationService_t2839639379 * __this, float p0, float p1, const RuntimeMethod* method);
+// UnityEngine.LocationServiceStatus UnityEngine.LocationService::get_status()
+extern "C" IL2CPP_METHOD_ATTR int32_t LocationService_get_status_m1450164038 (LocationService_t2839639379 * __this, const RuntimeMethod* method);
 // System.Void VuforiaMonoBehaviour::.ctor()
 extern "C" IL2CPP_METHOD_ATTR void VuforiaMonoBehaviour__ctor_m348562674 (VuforiaMonoBehaviour_t1150221792 * __this, const RuntimeMethod* method);
 // System.Void DefaultInitializationErrorHandler::SetErrorCode(Vuforia.VuforiaUnity/InitError)
@@ -19983,26 +20085,6 @@ inline Animator_t434523843 * Component_GetComponentInChildren_TisAnimator_t43452
 {
 	return ((  Animator_t434523843 * (*) (Component_t1923634451 *, const RuntimeMethod*))Component_GetComponentInChildren_TisRuntimeObject_m1033527003_gshared)(__this, method);
 }
-// System.Collections.IEnumerator compass::InitializeLocation()
-extern "C" IL2CPP_METHOD_ATTR RuntimeObject* compass_InitializeLocation_m1343124910 (compass_t1494105860 * __this, const RuntimeMethod* method);
-// System.Void compass/<InitializeLocation>c__Iterator0::.ctor()
-extern "C" IL2CPP_METHOD_ATTR void U3CInitializeLocationU3Ec__Iterator0__ctor_m81466049 (U3CInitializeLocationU3Ec__Iterator0_t3117843726 * __this, const RuntimeMethod* method);
-// UnityEngine.Compass UnityEngine.Input::get_compass()
-extern "C" IL2CPP_METHOD_ATTR Compass_t3092386685 * Input_get_compass_m4226377434 (RuntimeObject * __this /* static, unused */, const RuntimeMethod* method);
-// System.Single UnityEngine.Compass::get_trueHeading()
-extern "C" IL2CPP_METHOD_ATTR float Compass_get_trueHeading_m400403221 (Compass_t3092386685 * __this, const RuntimeMethod* method);
-// System.String System.Single::ToString()
-extern "C" IL2CPP_METHOD_ATTR String_t* Single_ToString_m3947131094 (float* __this, const RuntimeMethod* method);
-// UnityEngine.LocationService UnityEngine.Input::get_location()
-extern "C" IL2CPP_METHOD_ATTR LocationService_t2839639379 * Input_get_location_m1744795999 (RuntimeObject * __this /* static, unused */, const RuntimeMethod* method);
-// System.Boolean UnityEngine.LocationService::get_isEnabledByUser()
-extern "C" IL2CPP_METHOD_ATTR bool LocationService_get_isEnabledByUser_m3325769302 (LocationService_t2839639379 * __this, const RuntimeMethod* method);
-// System.Void UnityEngine.Compass::set_enabled(System.Boolean)
-extern "C" IL2CPP_METHOD_ATTR void Compass_set_enabled_m3413005128 (Compass_t3092386685 * __this, bool p0, const RuntimeMethod* method);
-// System.Void UnityEngine.LocationService::Start(System.Single,System.Single)
-extern "C" IL2CPP_METHOD_ATTR void LocationService_Start_m970336927 (LocationService_t2839639379 * __this, float p0, float p1, const RuntimeMethod* method);
-// UnityEngine.LocationServiceStatus UnityEngine.LocationService::get_status()
-extern "C" IL2CPP_METHOD_ATTR int32_t LocationService_get_status_m1450164038 (LocationService_t2839639379 * __this, const RuntimeMethod* method);
 #ifdef __clang__
 #pragma clang diagnostic push
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
@@ -24205,6 +24287,388 @@ IL_002c:
 		return;
 	}
 }
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+// System.Void Compass::.ctor()
+extern "C" IL2CPP_METHOD_ATTR void Compass__ctor_m4168797602 (Compass_t1494106852 * __this, const RuntimeMethod* method)
+{
+	{
+		__this->set_b31Heading_7((270.0f));
+		__this->set_b27Heading_8((90.0f));
+		__this->set_bound_9((60.0f));
+		MonoBehaviour__ctor_m1579109191(__this, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void Compass::Awake()
+extern "C" IL2CPP_METHOD_ATTR void Compass_Awake_m2159721874 (Compass_t1494106852 * __this, const RuntimeMethod* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (Compass_Awake_m2159721874_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		((Compass_t1494106852_StaticFields*)il2cpp_codegen_static_fields_for(Compass_t1494106852_il2cpp_TypeInfo_var))->set_instance_6(__this);
+		return;
+	}
+}
+// System.Void Compass::Start()
+extern "C" IL2CPP_METHOD_ATTR void Compass_Start_m808901726 (Compass_t1494106852 * __this, const RuntimeMethod* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (Compass_Start_m808901726_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		__this->set_heading_4((0.0f));
+		Text_t1901882714 * L_0 = __this->get_txt_5();
+		NullCheck(L_0);
+		VirtActionInvoker1< String_t* >::Invoke(73 /* System.Void UnityEngine.UI.Text::set_text(System.String) */, L_0, _stringLiteral838443864);
+		RuntimeObject* L_1 = Compass_InitializeLocation_m2476526045(__this, /*hidden argument*/NULL);
+		MonoBehaviour_StartCoroutine_m3411253000(__this, L_1, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Collections.IEnumerator Compass::InitializeLocation()
+extern "C" IL2CPP_METHOD_ATTR RuntimeObject* Compass_InitializeLocation_m2476526045 (Compass_t1494106852 * __this, const RuntimeMethod* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (Compass_InitializeLocation_m2476526045_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	U3CInitializeLocationU3Ec__Iterator0_t781553934 * V_0 = NULL;
+	{
+		U3CInitializeLocationU3Ec__Iterator0_t781553934 * L_0 = (U3CInitializeLocationU3Ec__Iterator0_t781553934 *)il2cpp_codegen_object_new(U3CInitializeLocationU3Ec__Iterator0_t781553934_il2cpp_TypeInfo_var);
+		U3CInitializeLocationU3Ec__Iterator0__ctor_m3783146344(L_0, /*hidden argument*/NULL);
+		V_0 = L_0;
+		U3CInitializeLocationU3Ec__Iterator0_t781553934 * L_1 = V_0;
+		return L_1;
+	}
+}
+// System.Void Compass::Update()
+extern "C" IL2CPP_METHOD_ATTR void Compass_Update_m1513939206 (Compass_t1494106852 * __this, const RuntimeMethod* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (Compass_Update_m1513939206_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	int32_t V_0 = 0;
+	{
+		IL2CPP_RUNTIME_CLASS_INIT(Input_t1431474628_il2cpp_TypeInfo_var);
+		Compass_t3092386685 * L_0 = Input_get_compass_m4226377434(NULL /*static, unused*/, /*hidden argument*/NULL);
+		NullCheck(L_0);
+		float L_1 = Compass_get_trueHeading_m400403221(L_0, /*hidden argument*/NULL);
+		__this->set_heading_4(L_1);
+		Text_t1901882714 * L_2 = __this->get_txt_5();
+		float* L_3 = __this->get_address_of_heading_4();
+		String_t* L_4 = Single_ToString_m3947131094((float*)L_3, /*hidden argument*/NULL);
+		NullCheck(L_2);
+		VirtActionInvoker1< String_t* >::Invoke(73 /* System.Void UnityEngine.UI.Text::set_text(System.String) */, L_2, L_4);
+		Text_t1901882714 * L_5 = __this->get_txt_5();
+		Text_t1901882714 * L_6 = L_5;
+		NullCheck(L_6);
+		String_t* L_7 = VirtFuncInvoker0< String_t* >::Invoke(72 /* System.String UnityEngine.UI.Text::get_text() */, L_6);
+		int32_t L_8 = Compass_GetLoc_m2820561307(__this, /*hidden argument*/NULL);
+		V_0 = L_8;
+		RuntimeObject * L_9 = Box(Loc_t3720321912_il2cpp_TypeInfo_var, (&V_0));
+		NullCheck(L_9);
+		String_t* L_10 = VirtFuncInvoker0< String_t* >::Invoke(3 /* System.String System.Object::ToString() */, L_9);
+		V_0 = *(int32_t*)UnBox(L_9);
+		IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
+		String_t* L_11 = String_Concat_m3755062657(NULL /*static, unused*/, L_7, _stringLiteral3452614550, L_10, /*hidden argument*/NULL);
+		NullCheck(L_6);
+		VirtActionInvoker1< String_t* >::Invoke(73 /* System.Void UnityEngine.UI.Text::set_text(System.String) */, L_6, L_11);
+		return;
+	}
+}
+// Compass/Loc Compass::GetLoc()
+extern "C" IL2CPP_METHOD_ATTR int32_t Compass_GetLoc_m2820561307 (Compass_t1494106852 * __this, const RuntimeMethod* method)
+{
+	{
+		float L_0 = __this->get_b31Heading_7();
+		float L_1 = __this->get_bound_9();
+		float L_2 = __this->get_heading_4();
+		if ((!(((float)((float)il2cpp_codegen_subtract((float)L_0, (float)L_1))) <= ((float)L_2))))
+		{
+			goto IL_0032;
+		}
+	}
+	{
+		float L_3 = __this->get_heading_4();
+		float L_4 = __this->get_b31Heading_7();
+		float L_5 = __this->get_bound_9();
+		if ((!(((float)L_3) <= ((float)((float)il2cpp_codegen_add((float)L_4, (float)L_5))))))
+		{
+			goto IL_0032;
+		}
+	}
+	{
+		return (int32_t)(2);
+	}
+
+IL_0032:
+	{
+		float L_6 = __this->get_b27Heading_8();
+		float L_7 = __this->get_bound_9();
+		float L_8 = __this->get_heading_4();
+		if ((!(((float)((float)il2cpp_codegen_subtract((float)L_6, (float)L_7))) <= ((float)L_8))))
+		{
+			goto IL_0064;
+		}
+	}
+	{
+		float L_9 = __this->get_heading_4();
+		float L_10 = __this->get_b27Heading_8();
+		float L_11 = __this->get_bound_9();
+		if ((!(((float)L_9) <= ((float)((float)il2cpp_codegen_add((float)L_10, (float)L_11))))))
+		{
+			goto IL_0064;
+		}
+	}
+	{
+		return (int32_t)(3);
+	}
+
+IL_0064:
+	{
+		return (int32_t)(0);
+	}
+}
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+// System.Void Compass/<InitializeLocation>c__Iterator0::.ctor()
+extern "C" IL2CPP_METHOD_ATTR void U3CInitializeLocationU3Ec__Iterator0__ctor_m3783146344 (U3CInitializeLocationU3Ec__Iterator0_t781553934 * __this, const RuntimeMethod* method)
+{
+	{
+		Object__ctor_m297566312(__this, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Boolean Compass/<InitializeLocation>c__Iterator0::MoveNext()
+extern "C" IL2CPP_METHOD_ATTR bool U3CInitializeLocationU3Ec__Iterator0_MoveNext_m2927710547 (U3CInitializeLocationU3Ec__Iterator0_t781553934 * __this, const RuntimeMethod* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (U3CInitializeLocationU3Ec__Iterator0_MoveNext_m2927710547_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	uint32_t V_0 = 0;
+	{
+		int32_t L_0 = __this->get_U24PC_3();
+		V_0 = L_0;
+		__this->set_U24PC_3((-1));
+		uint32_t L_1 = V_0;
+		switch (L_1)
+		{
+			case 0:
+			{
+				goto IL_0021;
+			}
+			case 1:
+			{
+				goto IL_0099;
+			}
+		}
+	}
+	{
+		goto IL_0113;
+	}
+
+IL_0021:
+	{
+		IL2CPP_RUNTIME_CLASS_INIT(Input_t1431474628_il2cpp_TypeInfo_var);
+		LocationService_t2839639379 * L_2 = Input_get_location_m1744795999(NULL /*static, unused*/, /*hidden argument*/NULL);
+		NullCheck(L_2);
+		bool L_3 = LocationService_get_isEnabledByUser_m3325769302(L_2, /*hidden argument*/NULL);
+		if (L_3)
+		{
+			goto IL_003f;
+		}
+	}
+	{
+		IL2CPP_RUNTIME_CLASS_INIT(Debug_t3317548046_il2cpp_TypeInfo_var);
+		Debug_Log_m4051431634(NULL /*static, unused*/, _stringLiteral113366433, /*hidden argument*/NULL);
+		goto IL_0113;
+	}
+
+IL_003f:
+	{
+		IL2CPP_RUNTIME_CLASS_INIT(Input_t1431474628_il2cpp_TypeInfo_var);
+		Compass_t3092386685 * L_4 = Input_get_compass_m4226377434(NULL /*static, unused*/, /*hidden argument*/NULL);
+		NullCheck(L_4);
+		Compass_set_enabled_m3413005128(L_4, (bool)1, /*hidden argument*/NULL);
+		IL2CPP_RUNTIME_CLASS_INIT(Debug_t3317548046_il2cpp_TypeInfo_var);
+		Debug_Log_m4051431634(NULL /*static, unused*/, _stringLiteral3002850269, /*hidden argument*/NULL);
+		LocationService_t2839639379 * L_5 = Input_get_location_m1744795999(NULL /*static, unused*/, /*hidden argument*/NULL);
+		NullCheck(L_5);
+		LocationService_Start_m970336927(L_5, (10.0f), (0.01f), /*hidden argument*/NULL);
+		__this->set_U3CmaxSecondsToWaitForLocationU3E__0_0(((int32_t)20));
+		goto IL_00a7;
+	}
+
+IL_0075:
+	{
+		WaitForSeconds_t1699091251 * L_6 = (WaitForSeconds_t1699091251 *)il2cpp_codegen_object_new(WaitForSeconds_t1699091251_il2cpp_TypeInfo_var);
+		WaitForSeconds__ctor_m2199082655(L_6, (1.0f), /*hidden argument*/NULL);
+		__this->set_U24current_1(L_6);
+		bool L_7 = __this->get_U24disposing_2();
+		if (L_7)
+		{
+			goto IL_0094;
+		}
+	}
+	{
+		__this->set_U24PC_3(1);
+	}
+
+IL_0094:
+	{
+		goto IL_0115;
+	}
+
+IL_0099:
+	{
+		int32_t L_8 = __this->get_U3CmaxSecondsToWaitForLocationU3E__0_0();
+		__this->set_U3CmaxSecondsToWaitForLocationU3E__0_0(((int32_t)il2cpp_codegen_subtract((int32_t)L_8, (int32_t)1)));
+	}
+
+IL_00a7:
+	{
+		IL2CPP_RUNTIME_CLASS_INIT(Input_t1431474628_il2cpp_TypeInfo_var);
+		LocationService_t2839639379 * L_9 = Input_get_location_m1744795999(NULL /*static, unused*/, /*hidden argument*/NULL);
+		NullCheck(L_9);
+		int32_t L_10 = LocationService_get_status_m1450164038(L_9, /*hidden argument*/NULL);
+		if ((!(((uint32_t)L_10) == ((uint32_t)1))))
+		{
+			goto IL_00c3;
+		}
+	}
+	{
+		int32_t L_11 = __this->get_U3CmaxSecondsToWaitForLocationU3E__0_0();
+		if ((((int32_t)L_11) > ((int32_t)0)))
+		{
+			goto IL_0075;
+		}
+	}
+
+IL_00c3:
+	{
+		int32_t L_12 = __this->get_U3CmaxSecondsToWaitForLocationU3E__0_0();
+		if ((((int32_t)L_12) >= ((int32_t)1)))
+		{
+			goto IL_00de;
+		}
+	}
+	{
+		IL2CPP_RUNTIME_CLASS_INIT(Debug_t3317548046_il2cpp_TypeInfo_var);
+		Debug_Log_m4051431634(NULL /*static, unused*/, _stringLiteral2809044873, /*hidden argument*/NULL);
+		goto IL_0113;
+	}
+
+IL_00de:
+	{
+		IL2CPP_RUNTIME_CLASS_INIT(Input_t1431474628_il2cpp_TypeInfo_var);
+		LocationService_t2839639379 * L_13 = Input_get_location_m1744795999(NULL /*static, unused*/, /*hidden argument*/NULL);
+		NullCheck(L_13);
+		int32_t L_14 = LocationService_get_status_m1450164038(L_13, /*hidden argument*/NULL);
+		if ((!(((uint32_t)L_14) == ((uint32_t)3))))
+		{
+			goto IL_00fd;
+		}
+	}
+	{
+		IL2CPP_RUNTIME_CLASS_INIT(Debug_t3317548046_il2cpp_TypeInfo_var);
+		Debug_Log_m4051431634(NULL /*static, unused*/, _stringLiteral4181046453, /*hidden argument*/NULL);
+		goto IL_0113;
+	}
+
+IL_00fd:
+	{
+		IL2CPP_RUNTIME_CLASS_INIT(Debug_t3317548046_il2cpp_TypeInfo_var);
+		Debug_Log_m4051431634(NULL /*static, unused*/, _stringLiteral858259163, /*hidden argument*/NULL);
+		goto IL_0113;
+	}
+	// Dead block : IL_010c: ldarg.0
+
+IL_0113:
+	{
+		return (bool)0;
+	}
+
+IL_0115:
+	{
+		return (bool)1;
+	}
+}
+// System.Object Compass/<InitializeLocation>c__Iterator0::System.Collections.Generic.IEnumerator<object>.get_Current()
+extern "C" IL2CPP_METHOD_ATTR RuntimeObject * U3CInitializeLocationU3Ec__Iterator0_System_Collections_Generic_IEnumeratorU3CobjectU3E_get_Current_m3076754896 (U3CInitializeLocationU3Ec__Iterator0_t781553934 * __this, const RuntimeMethod* method)
+{
+	{
+		RuntimeObject * L_0 = __this->get_U24current_1();
+		return L_0;
+	}
+}
+// System.Object Compass/<InitializeLocation>c__Iterator0::System.Collections.IEnumerator.get_Current()
+extern "C" IL2CPP_METHOD_ATTR RuntimeObject * U3CInitializeLocationU3Ec__Iterator0_System_Collections_IEnumerator_get_Current_m3645904437 (U3CInitializeLocationU3Ec__Iterator0_t781553934 * __this, const RuntimeMethod* method)
+{
+	{
+		RuntimeObject * L_0 = __this->get_U24current_1();
+		return L_0;
+	}
+}
+// System.Void Compass/<InitializeLocation>c__Iterator0::Dispose()
+extern "C" IL2CPP_METHOD_ATTR void U3CInitializeLocationU3Ec__Iterator0_Dispose_m4258276198 (U3CInitializeLocationU3Ec__Iterator0_t781553934 * __this, const RuntimeMethod* method)
+{
+	{
+		__this->set_U24disposing_2((bool)1);
+		__this->set_U24PC_3((-1));
+		return;
+	}
+}
+// System.Void Compass/<InitializeLocation>c__Iterator0::Reset()
+extern "C" IL2CPP_METHOD_ATTR void U3CInitializeLocationU3Ec__Iterator0_Reset_m4067987123 (U3CInitializeLocationU3Ec__Iterator0_t781553934 * __this, const RuntimeMethod* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (U3CInitializeLocationU3Ec__Iterator0_Reset_m4067987123_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		NotSupportedException_t1314879016 * L_0 = (NotSupportedException_t1314879016 *)il2cpp_codegen_object_new(NotSupportedException_t1314879016_il2cpp_TypeInfo_var);
+		NotSupportedException__ctor_m2730133172(L_0, /*hidden argument*/NULL);
+		IL2CPP_RAISE_MANAGED_EXCEPTION(L_0, NULL, U3CInitializeLocationU3Ec__Iterator0_Reset_m4067987123_RuntimeMethod_var);
+	}
+}
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
 #ifdef __clang__
 #pragma clang diagnostic pop
 #endif
@@ -36284,295 +36748,6 @@ extern "C" IL2CPP_METHOD_ATTR void VuMarkTrackableEventHandler_OnTrackingFound_m
 IL_0024:
 	{
 		return;
-	}
-}
-#ifdef __clang__
-#pragma clang diagnostic pop
-#endif
-#ifdef __clang__
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Winvalid-offsetof"
-#pragma clang diagnostic ignored "-Wunused-variable"
-#endif
-// System.Void compass::.ctor()
-extern "C" IL2CPP_METHOD_ATTR void compass__ctor_m4167778818 (compass_t1494105860 * __this, const RuntimeMethod* method)
-{
-	{
-		MonoBehaviour__ctor_m1579109191(__this, /*hidden argument*/NULL);
-		return;
-	}
-}
-// System.Void compass::Start()
-extern "C" IL2CPP_METHOD_ATTR void compass_Start_m807882942 (compass_t1494105860 * __this, const RuntimeMethod* method)
-{
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
-	{
-		il2cpp_codegen_initialize_method (compass_Start_m807882942_MetadataUsageId);
-		s_Il2CppMethodInitialized = true;
-	}
-	{
-		__this->set_heading_4((0.0f));
-		Text_t1901882714 * L_0 = __this->get_txt_5();
-		NullCheck(L_0);
-		VirtActionInvoker1< String_t* >::Invoke(73 /* System.Void UnityEngine.UI.Text::set_text(System.String) */, L_0, _stringLiteral838443864);
-		RuntimeObject* L_1 = compass_InitializeLocation_m1343124910(__this, /*hidden argument*/NULL);
-		MonoBehaviour_StartCoroutine_m3411253000(__this, L_1, /*hidden argument*/NULL);
-		return;
-	}
-}
-// System.Collections.IEnumerator compass::InitializeLocation()
-extern "C" IL2CPP_METHOD_ATTR RuntimeObject* compass_InitializeLocation_m1343124910 (compass_t1494105860 * __this, const RuntimeMethod* method)
-{
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
-	{
-		il2cpp_codegen_initialize_method (compass_InitializeLocation_m1343124910_MetadataUsageId);
-		s_Il2CppMethodInitialized = true;
-	}
-	U3CInitializeLocationU3Ec__Iterator0_t3117843726 * V_0 = NULL;
-	{
-		U3CInitializeLocationU3Ec__Iterator0_t3117843726 * L_0 = (U3CInitializeLocationU3Ec__Iterator0_t3117843726 *)il2cpp_codegen_object_new(U3CInitializeLocationU3Ec__Iterator0_t3117843726_il2cpp_TypeInfo_var);
-		U3CInitializeLocationU3Ec__Iterator0__ctor_m81466049(L_0, /*hidden argument*/NULL);
-		V_0 = L_0;
-		U3CInitializeLocationU3Ec__Iterator0_t3117843726 * L_1 = V_0;
-		return L_1;
-	}
-}
-// System.Void compass::Update()
-extern "C" IL2CPP_METHOD_ATTR void compass_Update_m1480319270 (compass_t1494105860 * __this, const RuntimeMethod* method)
-{
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
-	{
-		il2cpp_codegen_initialize_method (compass_Update_m1480319270_MetadataUsageId);
-		s_Il2CppMethodInitialized = true;
-	}
-	{
-		IL2CPP_RUNTIME_CLASS_INIT(Input_t1431474628_il2cpp_TypeInfo_var);
-		Compass_t3092386685 * L_0 = Input_get_compass_m4226377434(NULL /*static, unused*/, /*hidden argument*/NULL);
-		NullCheck(L_0);
-		float L_1 = Compass_get_trueHeading_m400403221(L_0, /*hidden argument*/NULL);
-		__this->set_heading_4(L_1);
-		Text_t1901882714 * L_2 = __this->get_txt_5();
-		float* L_3 = __this->get_address_of_heading_4();
-		String_t* L_4 = Single_ToString_m3947131094((float*)L_3, /*hidden argument*/NULL);
-		NullCheck(L_2);
-		VirtActionInvoker1< String_t* >::Invoke(73 /* System.Void UnityEngine.UI.Text::set_text(System.String) */, L_2, L_4);
-		return;
-	}
-}
-#ifdef __clang__
-#pragma clang diagnostic pop
-#endif
-#ifdef __clang__
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Winvalid-offsetof"
-#pragma clang diagnostic ignored "-Wunused-variable"
-#endif
-// System.Void compass/<InitializeLocation>c__Iterator0::.ctor()
-extern "C" IL2CPP_METHOD_ATTR void U3CInitializeLocationU3Ec__Iterator0__ctor_m81466049 (U3CInitializeLocationU3Ec__Iterator0_t3117843726 * __this, const RuntimeMethod* method)
-{
-	{
-		Object__ctor_m297566312(__this, /*hidden argument*/NULL);
-		return;
-	}
-}
-// System.Boolean compass/<InitializeLocation>c__Iterator0::MoveNext()
-extern "C" IL2CPP_METHOD_ATTR bool U3CInitializeLocationU3Ec__Iterator0_MoveNext_m55003962 (U3CInitializeLocationU3Ec__Iterator0_t3117843726 * __this, const RuntimeMethod* method)
-{
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
-	{
-		il2cpp_codegen_initialize_method (U3CInitializeLocationU3Ec__Iterator0_MoveNext_m55003962_MetadataUsageId);
-		s_Il2CppMethodInitialized = true;
-	}
-	uint32_t V_0 = 0;
-	{
-		int32_t L_0 = __this->get_U24PC_3();
-		V_0 = L_0;
-		__this->set_U24PC_3((-1));
-		uint32_t L_1 = V_0;
-		switch (L_1)
-		{
-			case 0:
-			{
-				goto IL_0021;
-			}
-			case 1:
-			{
-				goto IL_0099;
-			}
-		}
-	}
-	{
-		goto IL_0113;
-	}
-
-IL_0021:
-	{
-		IL2CPP_RUNTIME_CLASS_INIT(Input_t1431474628_il2cpp_TypeInfo_var);
-		LocationService_t2839639379 * L_2 = Input_get_location_m1744795999(NULL /*static, unused*/, /*hidden argument*/NULL);
-		NullCheck(L_2);
-		bool L_3 = LocationService_get_isEnabledByUser_m3325769302(L_2, /*hidden argument*/NULL);
-		if (L_3)
-		{
-			goto IL_003f;
-		}
-	}
-	{
-		IL2CPP_RUNTIME_CLASS_INIT(Debug_t3317548046_il2cpp_TypeInfo_var);
-		Debug_Log_m4051431634(NULL /*static, unused*/, _stringLiteral113366433, /*hidden argument*/NULL);
-		goto IL_0113;
-	}
-
-IL_003f:
-	{
-		IL2CPP_RUNTIME_CLASS_INIT(Input_t1431474628_il2cpp_TypeInfo_var);
-		Compass_t3092386685 * L_4 = Input_get_compass_m4226377434(NULL /*static, unused*/, /*hidden argument*/NULL);
-		NullCheck(L_4);
-		Compass_set_enabled_m3413005128(L_4, (bool)1, /*hidden argument*/NULL);
-		IL2CPP_RUNTIME_CLASS_INIT(Debug_t3317548046_il2cpp_TypeInfo_var);
-		Debug_Log_m4051431634(NULL /*static, unused*/, _stringLiteral3002850269, /*hidden argument*/NULL);
-		LocationService_t2839639379 * L_5 = Input_get_location_m1744795999(NULL /*static, unused*/, /*hidden argument*/NULL);
-		NullCheck(L_5);
-		LocationService_Start_m970336927(L_5, (10.0f), (0.01f), /*hidden argument*/NULL);
-		__this->set_U3CmaxSecondsToWaitForLocationU3E__0_0(((int32_t)20));
-		goto IL_00a7;
-	}
-
-IL_0075:
-	{
-		WaitForSeconds_t1699091251 * L_6 = (WaitForSeconds_t1699091251 *)il2cpp_codegen_object_new(WaitForSeconds_t1699091251_il2cpp_TypeInfo_var);
-		WaitForSeconds__ctor_m2199082655(L_6, (1.0f), /*hidden argument*/NULL);
-		__this->set_U24current_1(L_6);
-		bool L_7 = __this->get_U24disposing_2();
-		if (L_7)
-		{
-			goto IL_0094;
-		}
-	}
-	{
-		__this->set_U24PC_3(1);
-	}
-
-IL_0094:
-	{
-		goto IL_0115;
-	}
-
-IL_0099:
-	{
-		int32_t L_8 = __this->get_U3CmaxSecondsToWaitForLocationU3E__0_0();
-		__this->set_U3CmaxSecondsToWaitForLocationU3E__0_0(((int32_t)il2cpp_codegen_subtract((int32_t)L_8, (int32_t)1)));
-	}
-
-IL_00a7:
-	{
-		IL2CPP_RUNTIME_CLASS_INIT(Input_t1431474628_il2cpp_TypeInfo_var);
-		LocationService_t2839639379 * L_9 = Input_get_location_m1744795999(NULL /*static, unused*/, /*hidden argument*/NULL);
-		NullCheck(L_9);
-		int32_t L_10 = LocationService_get_status_m1450164038(L_9, /*hidden argument*/NULL);
-		if ((!(((uint32_t)L_10) == ((uint32_t)1))))
-		{
-			goto IL_00c3;
-		}
-	}
-	{
-		int32_t L_11 = __this->get_U3CmaxSecondsToWaitForLocationU3E__0_0();
-		if ((((int32_t)L_11) > ((int32_t)0)))
-		{
-			goto IL_0075;
-		}
-	}
-
-IL_00c3:
-	{
-		int32_t L_12 = __this->get_U3CmaxSecondsToWaitForLocationU3E__0_0();
-		if ((((int32_t)L_12) >= ((int32_t)1)))
-		{
-			goto IL_00de;
-		}
-	}
-	{
-		IL2CPP_RUNTIME_CLASS_INIT(Debug_t3317548046_il2cpp_TypeInfo_var);
-		Debug_Log_m4051431634(NULL /*static, unused*/, _stringLiteral2809044873, /*hidden argument*/NULL);
-		goto IL_0113;
-	}
-
-IL_00de:
-	{
-		IL2CPP_RUNTIME_CLASS_INIT(Input_t1431474628_il2cpp_TypeInfo_var);
-		LocationService_t2839639379 * L_13 = Input_get_location_m1744795999(NULL /*static, unused*/, /*hidden argument*/NULL);
-		NullCheck(L_13);
-		int32_t L_14 = LocationService_get_status_m1450164038(L_13, /*hidden argument*/NULL);
-		if ((!(((uint32_t)L_14) == ((uint32_t)3))))
-		{
-			goto IL_00fd;
-		}
-	}
-	{
-		IL2CPP_RUNTIME_CLASS_INIT(Debug_t3317548046_il2cpp_TypeInfo_var);
-		Debug_Log_m4051431634(NULL /*static, unused*/, _stringLiteral4181046453, /*hidden argument*/NULL);
-		goto IL_0113;
-	}
-
-IL_00fd:
-	{
-		IL2CPP_RUNTIME_CLASS_INIT(Debug_t3317548046_il2cpp_TypeInfo_var);
-		Debug_Log_m4051431634(NULL /*static, unused*/, _stringLiteral858259163, /*hidden argument*/NULL);
-		goto IL_0113;
-	}
-	// Dead block : IL_010c: ldarg.0
-
-IL_0113:
-	{
-		return (bool)0;
-	}
-
-IL_0115:
-	{
-		return (bool)1;
-	}
-}
-// System.Object compass/<InitializeLocation>c__Iterator0::System.Collections.Generic.IEnumerator<object>.get_Current()
-extern "C" IL2CPP_METHOD_ATTR RuntimeObject * U3CInitializeLocationU3Ec__Iterator0_System_Collections_Generic_IEnumeratorU3CobjectU3E_get_Current_m1422331057 (U3CInitializeLocationU3Ec__Iterator0_t3117843726 * __this, const RuntimeMethod* method)
-{
-	{
-		RuntimeObject * L_0 = __this->get_U24current_1();
-		return L_0;
-	}
-}
-// System.Object compass/<InitializeLocation>c__Iterator0::System.Collections.IEnumerator.get_Current()
-extern "C" IL2CPP_METHOD_ATTR RuntimeObject * U3CInitializeLocationU3Ec__Iterator0_System_Collections_IEnumerator_get_Current_m4230715073 (U3CInitializeLocationU3Ec__Iterator0_t3117843726 * __this, const RuntimeMethod* method)
-{
-	{
-		RuntimeObject * L_0 = __this->get_U24current_1();
-		return L_0;
-	}
-}
-// System.Void compass/<InitializeLocation>c__Iterator0::Dispose()
-extern "C" IL2CPP_METHOD_ATTR void U3CInitializeLocationU3Ec__Iterator0_Dispose_m561052033 (U3CInitializeLocationU3Ec__Iterator0_t3117843726 * __this, const RuntimeMethod* method)
-{
-	{
-		__this->set_U24disposing_2((bool)1);
-		__this->set_U24PC_3((-1));
-		return;
-	}
-}
-// System.Void compass/<InitializeLocation>c__Iterator0::Reset()
-extern "C" IL2CPP_METHOD_ATTR void U3CInitializeLocationU3Ec__Iterator0_Reset_m357655894 (U3CInitializeLocationU3Ec__Iterator0_t3117843726 * __this, const RuntimeMethod* method)
-{
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
-	{
-		il2cpp_codegen_initialize_method (U3CInitializeLocationU3Ec__Iterator0_Reset_m357655894_MetadataUsageId);
-		s_Il2CppMethodInitialized = true;
-	}
-	{
-		NotSupportedException_t1314879016 * L_0 = (NotSupportedException_t1314879016 *)il2cpp_codegen_object_new(NotSupportedException_t1314879016_il2cpp_TypeInfo_var);
-		NotSupportedException__ctor_m2730133172(L_0, /*hidden argument*/NULL);
-		IL2CPP_RAISE_MANAGED_EXCEPTION(L_0, NULL, U3CInitializeLocationU3Ec__Iterator0_Reset_m357655894_RuntimeMethod_var);
 	}
 }
 #ifdef __clang__

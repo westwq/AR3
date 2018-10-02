@@ -3,13 +3,24 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 
-public class compass : MonoBehaviour {
+public class Compass : MonoBehaviour
+{
     public float heading;
     public Text txt;
+    public static Compass instance;
+    public enum Loc { Unknown, ICT, B3105, B2705 };
+    private float b31Heading = 270;
+    private float b27Heading = 90;
+    private float bound = 60;
 
+    private void Awake()
+    {
+        instance = this;
+    }
 
-	// Use this for initialization
-	void Start () {
+    // Use this for initialization
+    void Start()
+    {
         heading = 0;
         txt.text = "starting";
         StartCoroutine(InitializeLocation());
@@ -52,9 +63,24 @@ public class compass : MonoBehaviour {
         yield break;
     }
     // Update is called once per frame
-    void Update () {
+    void Update()
+    {
         heading = Input.compass.trueHeading;
-
         txt.text = heading.ToString();
-	}
+        txt.text += ":" + GetLoc().ToString();
+    }
+
+    Loc GetLoc()
+    {
+        //check ICT block
+        //check level 5
+
+        if (b31Heading - bound <= heading && heading <= b31Heading + bound)
+            return Loc.B3105;
+        else if (b27Heading - bound <= heading && heading <= b27Heading + bound)
+            return Loc.B2705;
+
+
+        return Loc.Unknown;
+    }
 }

@@ -1139,66 +1139,6 @@ public:
 #pragma clang diagnostic pop
 #endif
 #endif // U3CU3EC_T3582055403_H
-#ifndef U3CINITIALIZELOCATIONU3EC__ITERATOR0_T3117843726_H
-#define U3CINITIALIZELOCATIONU3EC__ITERATOR0_T3117843726_H
-#ifdef __clang__
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Winvalid-offsetof"
-#pragma clang diagnostic ignored "-Wunused-variable"
-#endif
-
-// compass/<InitializeLocation>c__Iterator0
-struct  U3CInitializeLocationU3Ec__Iterator0_t3117843726  : public RuntimeObject
-{
-public:
-	// System.Int32 compass/<InitializeLocation>c__Iterator0::<maxSecondsToWaitForLocation>__0
-	int32_t ___U3CmaxSecondsToWaitForLocationU3E__0_0;
-	// System.Object compass/<InitializeLocation>c__Iterator0::$current
-	RuntimeObject * ___U24current_1;
-	// System.Boolean compass/<InitializeLocation>c__Iterator0::$disposing
-	bool ___U24disposing_2;
-	// System.Int32 compass/<InitializeLocation>c__Iterator0::$PC
-	int32_t ___U24PC_3;
-
-public:
-	inline static int32_t get_offset_of_U3CmaxSecondsToWaitForLocationU3E__0_0() { return static_cast<int32_t>(offsetof(U3CInitializeLocationU3Ec__Iterator0_t3117843726, ___U3CmaxSecondsToWaitForLocationU3E__0_0)); }
-	inline int32_t get_U3CmaxSecondsToWaitForLocationU3E__0_0() const { return ___U3CmaxSecondsToWaitForLocationU3E__0_0; }
-	inline int32_t* get_address_of_U3CmaxSecondsToWaitForLocationU3E__0_0() { return &___U3CmaxSecondsToWaitForLocationU3E__0_0; }
-	inline void set_U3CmaxSecondsToWaitForLocationU3E__0_0(int32_t value)
-	{
-		___U3CmaxSecondsToWaitForLocationU3E__0_0 = value;
-	}
-
-	inline static int32_t get_offset_of_U24current_1() { return static_cast<int32_t>(offsetof(U3CInitializeLocationU3Ec__Iterator0_t3117843726, ___U24current_1)); }
-	inline RuntimeObject * get_U24current_1() const { return ___U24current_1; }
-	inline RuntimeObject ** get_address_of_U24current_1() { return &___U24current_1; }
-	inline void set_U24current_1(RuntimeObject * value)
-	{
-		___U24current_1 = value;
-		Il2CppCodeGenWriteBarrier((&___U24current_1), value);
-	}
-
-	inline static int32_t get_offset_of_U24disposing_2() { return static_cast<int32_t>(offsetof(U3CInitializeLocationU3Ec__Iterator0_t3117843726, ___U24disposing_2)); }
-	inline bool get_U24disposing_2() const { return ___U24disposing_2; }
-	inline bool* get_address_of_U24disposing_2() { return &___U24disposing_2; }
-	inline void set_U24disposing_2(bool value)
-	{
-		___U24disposing_2 = value;
-	}
-
-	inline static int32_t get_offset_of_U24PC_3() { return static_cast<int32_t>(offsetof(U3CInitializeLocationU3Ec__Iterator0_t3117843726, ___U24PC_3)); }
-	inline int32_t get_U24PC_3() const { return ___U24PC_3; }
-	inline int32_t* get_address_of_U24PC_3() { return &___U24PC_3; }
-	inline void set_U24PC_3(int32_t value)
-	{
-		___U24PC_3 = value;
-	}
-};
-
-#ifdef __clang__
-#pragma clang diagnostic pop
-#endif
-#endif // U3CINITIALIZELOCATIONU3EC__ITERATOR0_T3117843726_H
 #ifndef __STATICARRAYINITTYPESIZEU3D24_T3517759979_H
 #define __STATICARRAYINITTYPESIZEU3D24_T3517759979_H
 #ifdef __clang__
@@ -2768,6 +2708,35 @@ public:
 #pragma clang diagnostic pop
 #endif
 #endif // ABOUTSCREENSAMPLE_T2468051143_H
+#ifndef LOC_T3720321912_H
+#define LOC_T3720321912_H
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+
+// Compass/Loc
+struct  Loc_t3720321912 
+{
+public:
+	// System.Int32 Compass/Loc::value__
+	int32_t ___value___1;
+
+public:
+	inline static int32_t get_offset_of_value___1() { return static_cast<int32_t>(offsetof(Loc_t3720321912, ___value___1)); }
+	inline int32_t get_value___1() const { return ___value___1; }
+	inline int32_t* get_address_of_value___1() { return &___value___1; }
+	inline void set_value___1(int32_t value)
+	{
+		___value___1 = value;
+	}
+};
+
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#endif // LOC_T3720321912_H
 #ifndef ORIENTATION_T3671038586_H
 #define ORIENTATION_T3671038586_H
 #ifdef __clang__
@@ -6092,6 +6061,93 @@ public:
 #pragma clang diagnostic pop
 #endif
 #endif // CLOUDERRORHANDLER_T4107174916_H
+#ifndef COMPASS_T1494106852_H
+#define COMPASS_T1494106852_H
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+
+// Compass
+struct  Compass_t1494106852  : public MonoBehaviour_t3962482529
+{
+public:
+	// System.Single Compass::heading
+	float ___heading_4;
+	// UnityEngine.UI.Text Compass::txt
+	Text_t1901882714 * ___txt_5;
+	// System.Single Compass::b31Heading
+	float ___b31Heading_7;
+	// System.Single Compass::b27Heading
+	float ___b27Heading_8;
+	// System.Single Compass::bound
+	float ___bound_9;
+
+public:
+	inline static int32_t get_offset_of_heading_4() { return static_cast<int32_t>(offsetof(Compass_t1494106852, ___heading_4)); }
+	inline float get_heading_4() const { return ___heading_4; }
+	inline float* get_address_of_heading_4() { return &___heading_4; }
+	inline void set_heading_4(float value)
+	{
+		___heading_4 = value;
+	}
+
+	inline static int32_t get_offset_of_txt_5() { return static_cast<int32_t>(offsetof(Compass_t1494106852, ___txt_5)); }
+	inline Text_t1901882714 * get_txt_5() const { return ___txt_5; }
+	inline Text_t1901882714 ** get_address_of_txt_5() { return &___txt_5; }
+	inline void set_txt_5(Text_t1901882714 * value)
+	{
+		___txt_5 = value;
+		Il2CppCodeGenWriteBarrier((&___txt_5), value);
+	}
+
+	inline static int32_t get_offset_of_b31Heading_7() { return static_cast<int32_t>(offsetof(Compass_t1494106852, ___b31Heading_7)); }
+	inline float get_b31Heading_7() const { return ___b31Heading_7; }
+	inline float* get_address_of_b31Heading_7() { return &___b31Heading_7; }
+	inline void set_b31Heading_7(float value)
+	{
+		___b31Heading_7 = value;
+	}
+
+	inline static int32_t get_offset_of_b27Heading_8() { return static_cast<int32_t>(offsetof(Compass_t1494106852, ___b27Heading_8)); }
+	inline float get_b27Heading_8() const { return ___b27Heading_8; }
+	inline float* get_address_of_b27Heading_8() { return &___b27Heading_8; }
+	inline void set_b27Heading_8(float value)
+	{
+		___b27Heading_8 = value;
+	}
+
+	inline static int32_t get_offset_of_bound_9() { return static_cast<int32_t>(offsetof(Compass_t1494106852, ___bound_9)); }
+	inline float get_bound_9() const { return ___bound_9; }
+	inline float* get_address_of_bound_9() { return &___bound_9; }
+	inline void set_bound_9(float value)
+	{
+		___bound_9 = value;
+	}
+};
+
+struct Compass_t1494106852_StaticFields
+{
+public:
+	// Compass Compass::instance
+	Compass_t1494106852 * ___instance_6;
+
+public:
+	inline static int32_t get_offset_of_instance_6() { return static_cast<int32_t>(offsetof(Compass_t1494106852_StaticFields, ___instance_6)); }
+	inline Compass_t1494106852 * get_instance_6() const { return ___instance_6; }
+	inline Compass_t1494106852 ** get_address_of_instance_6() { return &___instance_6; }
+	inline void set_instance_6(Compass_t1494106852 * value)
+	{
+		___instance_6 = value;
+		Il2CppCodeGenWriteBarrier((&___instance_6), value);
+	}
+};
+
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#endif // COMPASS_T1494106852_H
 #ifndef FRAMERATESETTINGS_T3598747490_H
 #define FRAMERATESETTINGS_T3598747490_H
 #ifdef __clang__
@@ -6701,46 +6757,6 @@ public:
 #pragma clang diagnostic pop
 #endif
 #endif // VUFORIAMONOBEHAVIOUR_T1150221792_H
-#ifndef COMPASS_T1494105860_H
-#define COMPASS_T1494105860_H
-#ifdef __clang__
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Winvalid-offsetof"
-#pragma clang diagnostic ignored "-Wunused-variable"
-#endif
-
-// compass
-struct  compass_t1494105860  : public MonoBehaviour_t3962482529
-{
-public:
-	// System.Single compass::heading
-	float ___heading_4;
-	// UnityEngine.UI.Text compass::txt
-	Text_t1901882714 * ___txt_5;
-
-public:
-	inline static int32_t get_offset_of_heading_4() { return static_cast<int32_t>(offsetof(compass_t1494105860, ___heading_4)); }
-	inline float get_heading_4() const { return ___heading_4; }
-	inline float* get_address_of_heading_4() { return &___heading_4; }
-	inline void set_heading_4(float value)
-	{
-		___heading_4 = value;
-	}
-
-	inline static int32_t get_offset_of_txt_5() { return static_cast<int32_t>(offsetof(compass_t1494105860, ___txt_5)); }
-	inline Text_t1901882714 * get_txt_5() const { return ___txt_5; }
-	inline Text_t1901882714 ** get_address_of_txt_5() { return &___txt_5; }
-	inline void set_txt_5(Text_t1901882714 * value)
-	{
-		___txt_5 = value;
-		Il2CppCodeGenWriteBarrier((&___txt_5), value);
-	}
-};
-
-#ifdef __clang__
-#pragma clang diagnostic pop
-#endif
-#endif // COMPASS_T1494105860_H
 #ifndef TRACKABLEBEHAVIOUR_T1113559212_H
 #define TRACKABLEBEHAVIOUR_T1113559212_H
 #ifdef __clang__
@@ -8308,19 +8324,24 @@ extern const int32_t g_FieldOffsetTable2497[3] =
 	TrackableSettings_t2862243993::get_offset_of_m_FusionProviderType_5(),
 	TrackableSettings_t2862243993::get_offset_of_m_PositionalDeviceTracker_6(),
 };
-extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize2498 = { sizeof (compass_t1494105860), -1, 0, 0 };
-extern const int32_t g_FieldOffsetTable2498[2] = 
+extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize2498 = { sizeof (Compass_t1494106852), -1, sizeof(Compass_t1494106852_StaticFields), 0 };
+extern const int32_t g_FieldOffsetTable2498[6] = 
 {
-	compass_t1494105860::get_offset_of_heading_4(),
-	compass_t1494105860::get_offset_of_txt_5(),
+	Compass_t1494106852::get_offset_of_heading_4(),
+	Compass_t1494106852::get_offset_of_txt_5(),
+	Compass_t1494106852_StaticFields::get_offset_of_instance_6(),
+	Compass_t1494106852::get_offset_of_b31Heading_7(),
+	Compass_t1494106852::get_offset_of_b27Heading_8(),
+	Compass_t1494106852::get_offset_of_bound_9(),
 };
-extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize2499 = { sizeof (U3CInitializeLocationU3Ec__Iterator0_t3117843726), -1, 0, 0 };
-extern const int32_t g_FieldOffsetTable2499[4] = 
+extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize2499 = { sizeof (Loc_t3720321912)+ sizeof (RuntimeObject), sizeof(int32_t), 0, 0 };
+extern const int32_t g_FieldOffsetTable2499[5] = 
 {
-	U3CInitializeLocationU3Ec__Iterator0_t3117843726::get_offset_of_U3CmaxSecondsToWaitForLocationU3E__0_0(),
-	U3CInitializeLocationU3Ec__Iterator0_t3117843726::get_offset_of_U24current_1(),
-	U3CInitializeLocationU3Ec__Iterator0_t3117843726::get_offset_of_U24disposing_2(),
-	U3CInitializeLocationU3Ec__Iterator0_t3117843726::get_offset_of_U24PC_3(),
+	Loc_t3720321912::get_offset_of_value___1() + static_cast<int32_t>(sizeof(RuntimeObject)),
+	0,
+	0,
+	0,
+	0,
 };
 #ifdef __clang__
 #pragma clang diagnostic pop
