@@ -205,11 +205,13 @@ extern String_t* _stringLiteral3478177746;
 extern String_t* _stringLiteral3823085299;
 extern String_t* _stringLiteral389898510;
 extern String_t* _stringLiteral3941128596;
+extern String_t* _stringLiteral3977229295;
 extern String_t* _stringLiteral4294193667;
 extern String_t* _stringLiteral438779933;
 extern String_t* _stringLiteral4613441;
 extern const RuntimeMethod* AesTransform__ctor_m3143546745_RuntimeMethod_var;
 extern const RuntimeMethod* Check_SourceAndPredicate_m2332465641_RuntimeMethod_var;
+extern const RuntimeMethod* Check_SourceAndSelector_m4013530551_RuntimeMethod_var;
 extern const RuntimeMethod* Check_Source_m4098695967_RuntimeMethod_var;
 extern const RuntimeMethod* SymmetricTransform_CTS_m764800021_RuntimeMethod_var;
 extern const RuntimeMethod* SymmetricTransform_CheckInput_m2092289040_RuntimeMethod_var;
@@ -231,6 +233,7 @@ extern const uint32_t AesTransform__cctor_m2567644034_MetadataUsageId;
 extern const uint32_t AesTransform__ctor_m3143546745_MetadataUsageId;
 extern const uint32_t Aes__ctor_m178909601_MetadataUsageId;
 extern const uint32_t Check_SourceAndPredicate_m2332465641_MetadataUsageId;
+extern const uint32_t Check_SourceAndSelector_m4013530551_MetadataUsageId;
 extern const uint32_t Check_Source_m4098695967_MetadataUsageId;
 extern const uint32_t KeyBuilder_IV_m3340234014_MetadataUsageId;
 extern const uint32_t KeyBuilder_Key_m2503211157_MetadataUsageId;
@@ -4736,6 +4739,47 @@ extern "C" IL2CPP_METHOD_ATTR void Check_Source_m4098695967 (RuntimeObject * __t
 	}
 
 IL_0011:
+	{
+		return;
+	}
+}
+// System.Void System.Linq.Check::SourceAndSelector(System.Object,System.Object)
+extern "C" IL2CPP_METHOD_ATTR void Check_SourceAndSelector_m4013530551 (RuntimeObject * __this /* static, unused */, RuntimeObject * ___source0, RuntimeObject * ___selector1, const RuntimeMethod* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (Check_SourceAndSelector_m4013530551_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		RuntimeObject * L_0 = ___source0;
+		if (L_0)
+		{
+			goto IL_0011;
+		}
+	}
+	{
+		ArgumentNullException_t1615371798 * L_1 = (ArgumentNullException_t1615371798 *)il2cpp_codegen_object_new(ArgumentNullException_t1615371798_il2cpp_TypeInfo_var);
+		ArgumentNullException__ctor_m1170824041(L_1, _stringLiteral4294193667, /*hidden argument*/NULL);
+		IL2CPP_RAISE_MANAGED_EXCEPTION(L_1, NULL, Check_SourceAndSelector_m4013530551_RuntimeMethod_var);
+	}
+
+IL_0011:
+	{
+		RuntimeObject * L_2 = ___selector1;
+		if (L_2)
+		{
+			goto IL_0022;
+		}
+	}
+	{
+		ArgumentNullException_t1615371798 * L_3 = (ArgumentNullException_t1615371798 *)il2cpp_codegen_object_new(ArgumentNullException_t1615371798_il2cpp_TypeInfo_var);
+		ArgumentNullException__ctor_m1170824041(L_3, _stringLiteral3977229295, /*hidden argument*/NULL);
+		IL2CPP_RAISE_MANAGED_EXCEPTION(L_3, NULL, Check_SourceAndSelector_m4013530551_RuntimeMethod_var);
+	}
+
+IL_0022:
 	{
 		return;
 	}

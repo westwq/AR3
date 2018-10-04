@@ -47,4 +47,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/SampleScene.unity
     guid: 99c9720ab356a0642a771bea13969a05
+  - enabled: 0
+    path: Assets/AWE Estimote/Scene/EstimoteTestScene.unity
+    guid: 5ed0176791d1a7e4e9db83c40bdfbffe
   m_configObjects: {}

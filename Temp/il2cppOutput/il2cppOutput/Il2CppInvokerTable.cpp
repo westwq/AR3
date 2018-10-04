@@ -25034,6 +25034,13 @@ void* RuntimeInvoker_Boolean_t97287965_RuntimeObject_DoubleU26_t1739162597 (Il2C
 	return Box(il2cpp_codegen_class_from_type (il2cpp_codegen_method_return_type(methodMetadata)), &ret);
 }
 
+void* RuntimeInvoker_Boolean_t97287965_RuntimeObject_Int32_t2950945753_RuntimeObject_DoubleU26_t1739162597 (Il2CppMethodPointer methodPointer, const RuntimeMethod* methodMetadata, void* obj, void** args)
+{
+	typedef bool (*Func)(void* obj, RuntimeObject * p1, int32_t p2, RuntimeObject * p3, double* p4, const RuntimeMethod* method);
+	bool ret = ((Func)methodPointer)(obj, (RuntimeObject *)args[0], *((int32_t*)args[1]), (RuntimeObject *)args[2], (double*)args[3], methodMetadata);
+	return Box(il2cpp_codegen_class_from_type (il2cpp_codegen_method_return_type(methodMetadata)), &ret);
+}
+
 void* RuntimeInvoker_Void_t1185182177_Int32_t2950945753_Int32_t2950945753_Int32_t2950945753_SByte_t1669577662_SByte_t1669577662 (Il2CppMethodPointer methodPointer, const RuntimeMethod* methodMetadata, void* obj, void** args)
 {
 	typedef void (*Func)(void* obj, int32_t p1, int32_t p2, int32_t p3, int8_t p4, int8_t p5, const RuntimeMethod* method);
@@ -31229,6 +31236,20 @@ void* RuntimeInvoker_TextureWrapMode_t584250749 (Il2CppMethodPointer methodPoint
 	return Box(il2cpp_codegen_class_from_type (il2cpp_codegen_method_return_type(methodMetadata)), &ret);
 }
 
+void* RuntimeInvoker_RuntimeObject_RuntimeObject_Vector3_t3722313464_Quaternion_t2301928331 (Il2CppMethodPointer methodPointer, const RuntimeMethod* methodMetadata, void* obj, void** args)
+{
+	typedef RuntimeObject * (*Func)(void* obj, RuntimeObject * p1, Vector3_t3722313464  p2, Quaternion_t2301928331  p3, const RuntimeMethod* method);
+	RuntimeObject * ret = ((Func)methodPointer)(obj, (RuntimeObject *)args[0], *((Vector3_t3722313464 *)args[1]), *((Quaternion_t2301928331 *)args[2]), methodMetadata);
+	return ret;
+}
+
+void* RuntimeInvoker_RuntimeObject_RuntimeObject_Vector3U26_t3464235976_QuaternionU26_t651104941 (Il2CppMethodPointer methodPointer, const RuntimeMethod* methodMetadata, void* obj, void** args)
+{
+	typedef RuntimeObject * (*Func)(void* obj, RuntimeObject * p1, Vector3_t3722313464 * p2, Quaternion_t2301928331 * p3, const RuntimeMethod* method);
+	RuntimeObject * ret = ((Func)methodPointer)(obj, (RuntimeObject *)args[0], (Vector3_t3722313464 *)args[1], (Quaternion_t2301928331 *)args[2], methodMetadata);
+	return ret;
+}
+
 void* RuntimeInvoker_PersistentListenerMode_t232255230 (Il2CppMethodPointer methodPointer, const RuntimeMethod* methodMetadata, void* obj, void** args)
 {
 	typedef int32_t (*Func)(void* obj, const RuntimeMethod* method);
@@ -33560,13 +33581,6 @@ void* RuntimeInvoker_StatusInfo_t1633251416 (Il2CppMethodPointer methodPointer, 
 	return Box(il2cpp_codegen_class_from_type (il2cpp_codegen_method_return_type(methodMetadata)), &ret);
 }
 
-void* RuntimeInvoker_RuntimeObject_RuntimeObject_Vector3_t3722313464_Quaternion_t2301928331 (Il2CppMethodPointer methodPointer, const RuntimeMethod* methodMetadata, void* obj, void** args)
-{
-	typedef RuntimeObject * (*Func)(void* obj, RuntimeObject * p1, Vector3_t3722313464  p2, Quaternion_t2301928331  p3, const RuntimeMethod* method);
-	RuntimeObject * ret = ((Func)methodPointer)(obj, (RuntimeObject *)args[0], *((Vector3_t3722313464 *)args[1]), *((Quaternion_t2301928331 *)args[2]), methodMetadata);
-	return ret;
-}
-
 void* RuntimeInvoker_OrientedBoundingBox3D_t4089508388 (Il2CppMethodPointer methodPointer, const RuntimeMethod* methodMetadata, void* obj, void** args)
 {
 	typedef OrientedBoundingBox3D_t4089508388  (*Func)(void* obj, const RuntimeMethod* method);
@@ -34993,6 +35007,13 @@ void* RuntimeInvoker_RuntimeObject_RuntimeObject_ProfileData_t3519391925 (Il2Cpp
 	typedef RuntimeObject * (*Func)(void* obj, RuntimeObject * p1, ProfileData_t3519391925  p2, const RuntimeMethod* method);
 	RuntimeObject * ret = ((Func)methodPointer)(obj, (RuntimeObject *)args[0], *((ProfileData_t3519391925 *)args[1]), methodMetadata);
 	return ret;
+}
+
+void* RuntimeInvoker_Int32_t2950945753_RuntimeObject_Int16_t2552820387_Int32_t2950945753_Int32_t2950945753 (Il2CppMethodPointer methodPointer, const RuntimeMethod* methodMetadata, void* obj, void** args)
+{
+	typedef int32_t (*Func)(void* obj, RuntimeObject * p1, int16_t p2, int32_t p3, int32_t p4, const RuntimeMethod* method);
+	int32_t ret = ((Func)methodPointer)(obj, (RuntimeObject *)args[0], *((int16_t*)args[1]), *((int32_t*)args[2]), *((int32_t*)args[3]), methodMetadata);
+	return Box(il2cpp_codegen_class_from_type (il2cpp_codegen_method_return_type(methodMetadata)), &ret);
 }
 
 void* RuntimeInvoker_Loc_t3720321912 (Il2CppMethodPointer methodPointer, const RuntimeMethod* methodMetadata, void* obj, void** args)
@@ -40161,6 +40182,13 @@ void* RuntimeInvoker_RuntimeObject_TrackableIdPair_t4227350457_TrackableIdPair_t
 	return ret;
 }
 
+void* RuntimeInvoker_RuntimeObject_Int16_t2552820387_RuntimeObject_RuntimeObject (Il2CppMethodPointer methodPointer, const RuntimeMethod* methodMetadata, void* obj, void** args)
+{
+	typedef RuntimeObject * (*Func)(void* obj, int16_t p1, RuntimeObject * p2, RuntimeObject * p3, const RuntimeMethod* method);
+	RuntimeObject * ret = ((Func)methodPointer)(obj, *((int16_t*)args[0]), (RuntimeObject *)args[1], (RuntimeObject *)args[2], methodMetadata);
+	return ret;
+}
+
 void* RuntimeInvoker_RuntimeObject_Int32_t2950945753_IntPtr_t_RuntimeObject_RuntimeObject (Il2CppMethodPointer methodPointer, const RuntimeMethod* methodMetadata, void* obj, void** args)
 {
 	typedef RuntimeObject * (*Func)(void* obj, int32_t p1, intptr_t p2, RuntimeObject * p3, RuntimeObject * p4, const RuntimeMethod* method);
@@ -40224,7 +40252,7 @@ void* RuntimeInvoker_RuntimeObject_FloatTween_t1274330004 (Il2CppMethodPointer m
 	return ret;
 }
 
-extern const InvokerMethod g_Il2CppInvokerPointers[2306] = 
+extern const InvokerMethod g_Il2CppInvokerPointers[2310] = 
 {
 	RuntimeInvoker_Void_t1185182177,
 	RuntimeInvoker_Boolean_t97287965_RuntimeObject,
@@ -40362,6 +40390,7 @@ extern const InvokerMethod g_Il2CppInvokerPointers[2306] =
 	RuntimeInvoker_Boolean_t97287965_RuntimeObject_Int32_t2950945753_RuntimeObject_SByte_t1669577662_DoubleU26_t1739162597_ExceptionU26_t3600731591,
 	RuntimeInvoker_Boolean_t97287965_RuntimeObject_RuntimeObject_Int32_t2950945753_Int32_t2950945753,
 	RuntimeInvoker_Boolean_t97287965_RuntimeObject_DoubleU26_t1739162597,
+	RuntimeInvoker_Boolean_t97287965_RuntimeObject_Int32_t2950945753_RuntimeObject_DoubleU26_t1739162597,
 	RuntimeInvoker_Void_t1185182177_Int32_t2950945753_Int32_t2950945753_Int32_t2950945753_SByte_t1669577662_SByte_t1669577662,
 	RuntimeInvoker_Void_t1185182177_Int64_t3736567304,
 	RuntimeInvoker_Void_t1185182177_Single_t1397266774,
@@ -41247,6 +41276,8 @@ extern const InvokerMethod g_Il2CppInvokerPointers[2306] =
 	RuntimeInvoker_Void_t1185182177_RuntimeObject_StringU26_t181565287_StringU26_t181565287,
 	RuntimeInvoker_OperatingSystemFamily_t1868066375,
 	RuntimeInvoker_TextureWrapMode_t584250749,
+	RuntimeInvoker_RuntimeObject_RuntimeObject_Vector3_t3722313464_Quaternion_t2301928331,
+	RuntimeInvoker_RuntimeObject_RuntimeObject_Vector3U26_t3464235976_QuaternionU26_t651104941,
 	RuntimeInvoker_PersistentListenerMode_t232255230,
 	RuntimeInvoker_Vector2_t2156229523_Vector2_t2156229523_Vector2_t2156229523,
 	RuntimeInvoker_Single_t1397266774_Vector2_t2156229523_Vector2_t2156229523,
@@ -41580,7 +41611,6 @@ extern const InvokerMethod g_Il2CppInvokerPointers[2306] =
 	RuntimeInvoker_Nullable_1_t3119828856_Nullable_1_t3119828856,
 	RuntimeInvoker_TrackableResultData_t452703160,
 	RuntimeInvoker_StatusInfo_t1633251416,
-	RuntimeInvoker_RuntimeObject_RuntimeObject_Vector3_t3722313464_Quaternion_t2301928331,
 	RuntimeInvoker_OrientedBoundingBox3D_t4089508388,
 	RuntimeInvoker_InitError_t3420749710_RuntimeObject,
 	RuntimeInvoker_Int32_t2950945753_Int32_t2950945753_Int32_t2950945753_RuntimeObject,
@@ -41785,6 +41815,7 @@ extern const InvokerMethod g_Il2CppInvokerPointers[2306] =
 	RuntimeInvoker_Sensitivity_t3045829715,
 	RuntimeInvoker_Boolean_t97287965_Vector2_t2156229523_Vector2_t2156229523_Single_t1397266774,
 	RuntimeInvoker_RuntimeObject_RuntimeObject_ProfileData_t3519391925,
+	RuntimeInvoker_Int32_t2950945753_RuntimeObject_Int16_t2552820387_Int32_t2950945753_Int32_t2950945753,
 	RuntimeInvoker_Loc_t3720321912,
 	RuntimeInvoker_Void_t1185182177_Color_t2555686324_Color_t2555686324_Color_t2555686324,
 	RuntimeInvoker_RuntimeObject_Single_t1397266774_RuntimeObject_RuntimeObject_RuntimeObject_RuntimeObject,
@@ -42523,6 +42554,7 @@ extern const InvokerMethod g_Il2CppInvokerPointers[2306] =
 	RuntimeInvoker_RuntimeObject_VuMarkTargetData_t3266143771_VuMarkTargetData_t3266143771_RuntimeObject_RuntimeObject,
 	RuntimeInvoker_RuntimeObject_VuMarkTargetResultData_t2153299244_VuMarkTargetResultData_t2153299244_RuntimeObject_RuntimeObject,
 	RuntimeInvoker_RuntimeObject_TrackableIdPair_t4227350457_TrackableIdPair_t4227350457_RuntimeObject_RuntimeObject,
+	RuntimeInvoker_RuntimeObject_Int16_t2552820387_RuntimeObject_RuntimeObject,
 	RuntimeInvoker_RuntimeObject_Int32_t2950945753_IntPtr_t_RuntimeObject_RuntimeObject,
 	RuntimeInvoker_Boolean_t97287965_Nullable_1_t3119828856,
 	RuntimeInvoker_Boolean_t97287965_Nullable_1_t2603721331,

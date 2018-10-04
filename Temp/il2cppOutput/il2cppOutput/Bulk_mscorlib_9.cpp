@@ -918,6 +918,7 @@ extern const RuntimeMethod* SecurityElement_set_Text_m3975773934_RuntimeMethod_v
 extern const RuntimeMethod* SecurityManager_Decode_m2551103128_RuntimeMethod_var;
 extern const RuntimeMethod* SecurityPermission_set_Flags_m1503445204_RuntimeMethod_var;
 extern const RuntimeMethod* Single_CompareTo_m2785801815_RuntimeMethod_var;
+extern const RuntimeMethod* Single_Parse_m364357836_RuntimeMethod_var;
 extern const RuntimeMethod* Single_Parse_m3840407583_RuntimeMethod_var;
 extern const RuntimeMethod* Single_System_IConvertible_ToType_m3312441682_RuntimeMethod_var;
 extern const RuntimeMethod* StringComparer_Compare_m991165676_RuntimeMethod_var;
@@ -1142,6 +1143,7 @@ extern const uint32_t SecurityPermission_ToXml_m355131433_MetadataUsageId;
 extern const uint32_t SecurityPermission_set_Flags_m1503445204_MetadataUsageId;
 extern const uint32_t Single_CompareTo_m2785801815_MetadataUsageId;
 extern const uint32_t Single_Equals_m438106747_MetadataUsageId;
+extern const uint32_t Single_Parse_m364357836_MetadataUsageId;
 extern const uint32_t Single_Parse_m3840407583_MetadataUsageId;
 extern const uint32_t Single_System_IConvertible_ToBoolean_m1716619219_MetadataUsageId;
 extern const uint32_t Single_System_IConvertible_ToByte_m997362015_MetadataUsageId;
@@ -13185,10 +13187,12 @@ extern "C" IL2CPP_METHOD_ATTR String_t* NumberFormatter_NumberToString_m56754465
 extern "C" IL2CPP_METHOD_ATTR String_t* Single_ToString_m3947131094 (float* __this, const RuntimeMethod* method);
 // System.String System.Single::ToString(System.IFormatProvider)
 extern "C" IL2CPP_METHOD_ATTR String_t* Single_ToString_m3107811250 (float* __this, RuntimeObject* ___provider0, const RuntimeMethod* method);
-// System.String System.NumberFormatter::NumberToString(System.String,System.Single,System.IFormatProvider)
-extern "C" IL2CPP_METHOD_ATTR String_t* NumberFormatter_NumberToString_m2583974918 (RuntimeObject * __this /* static, unused */, String_t* ___format0, float ___value1, RuntimeObject* ___fp2, const RuntimeMethod* method);
 // System.String System.Single::ToString(System.String,System.IFormatProvider)
 extern "C" IL2CPP_METHOD_ATTR String_t* Single_ToString_m543431371 (float* __this, String_t* ___format0, RuntimeObject* ___provider1, const RuntimeMethod* method);
+// System.String System.Single::ToString(System.String)
+extern "C" IL2CPP_METHOD_ATTR String_t* Single_ToString_m3489843083 (float* __this, String_t* ___format0, const RuntimeMethod* method);
+// System.String System.NumberFormatter::NumberToString(System.String,System.Single,System.IFormatProvider)
+extern "C" IL2CPP_METHOD_ATTR String_t* NumberFormatter_NumberToString_m2583974918 (RuntimeObject * __this /* static, unused */, String_t* ___format0, float ___value1, RuntimeObject* ___fp2, const RuntimeMethod* method);
 // System.TypeCode System.Single::GetTypeCode()
 extern "C" IL2CPP_METHOD_ATTR int32_t Single_GetTypeCode_m3104238724 (float* __this, const RuntimeMethod* method);
 // System.Boolean System.Convert::ToBoolean(System.String,System.IFormatProvider)
@@ -25996,6 +26000,46 @@ IL_0024:
 		return (bool)G_B6_0;
 	}
 }
+// System.Single System.Single::Parse(System.String)
+extern "C" IL2CPP_METHOD_ATTR float Single_Parse_m364357836 (RuntimeObject * __this /* static, unused */, String_t* ___s0, const RuntimeMethod* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (Single_Parse_m364357836_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	double V_0 = 0.0;
+	{
+		String_t* L_0 = ___s0;
+		double L_1 = Double_Parse_m1135962389(NULL /*static, unused*/, L_0, ((int32_t)231), (RuntimeObject*)NULL, /*hidden argument*/NULL);
+		V_0 = L_1;
+		double L_2 = V_0;
+		if ((!(((double)((double)il2cpp_codegen_subtract((double)L_2, (double)(3.4028234663852886E+38)))) > ((double)(3.6147112457961776E+29)))))
+		{
+			goto IL_0037;
+		}
+	}
+	{
+		double L_3 = V_0;
+		bool L_4 = Double_IsPositiveInfinity_m1245619811(NULL /*static, unused*/, L_3, /*hidden argument*/NULL);
+		if (L_4)
+		{
+			goto IL_0037;
+		}
+	}
+	{
+		OverflowException_t2020128637 * L_5 = (OverflowException_t2020128637 *)il2cpp_codegen_object_new(OverflowException_t2020128637_il2cpp_TypeInfo_var);
+		OverflowException__ctor_m4029085969(L_5, /*hidden argument*/NULL);
+		IL2CPP_RAISE_MANAGED_EXCEPTION(L_5, NULL, Single_Parse_m364357836_RuntimeMethod_var);
+	}
+
+IL_0037:
+	{
+		double L_6 = V_0;
+		return (((float)((float)L_6)));
+	}
+}
 // System.Single System.Single::Parse(System.String,System.IFormatProvider)
 extern "C" IL2CPP_METHOD_ATTR float Single_Parse_m3840407583 (RuntimeObject * __this /* static, unused */, String_t* ___s0, RuntimeObject* ___provider1, const RuntimeMethod* method)
 {
@@ -26077,6 +26121,20 @@ extern "C"  String_t* Single_ToString_m3107811250_AdjustorThunk (RuntimeObject *
 {
 	float* _thisAdjusted = reinterpret_cast<float*>(__this + 1);
 	return Single_ToString_m3107811250(_thisAdjusted, ___provider0, method);
+}
+// System.String System.Single::ToString(System.String)
+extern "C" IL2CPP_METHOD_ATTR String_t* Single_ToString_m3489843083 (float* __this, String_t* ___format0, const RuntimeMethod* method)
+{
+	{
+		String_t* L_0 = ___format0;
+		String_t* L_1 = Single_ToString_m543431371((float*)__this, L_0, (RuntimeObject*)NULL, /*hidden argument*/NULL);
+		return L_1;
+	}
+}
+extern "C"  String_t* Single_ToString_m3489843083_AdjustorThunk (RuntimeObject * __this, String_t* ___format0, const RuntimeMethod* method)
+{
+	float* _thisAdjusted = reinterpret_cast<float*>(__this + 1);
+	return Single_ToString_m3489843083(_thisAdjusted, ___format0, method);
 }
 // System.String System.Single::ToString(System.String,System.IFormatProvider)
 extern "C" IL2CPP_METHOD_ATTR String_t* Single_ToString_m543431371 (float* __this, String_t* ___format0, RuntimeObject* ___provider1, const RuntimeMethod* method)

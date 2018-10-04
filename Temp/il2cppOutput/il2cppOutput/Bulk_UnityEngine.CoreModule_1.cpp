@@ -11459,6 +11459,15 @@ extern "C" IL2CPP_METHOD_ATTR void Screen_set_autorotateToLandscapeRight_m123828
 		return;
 	}
 }
+// System.Void UnityEngine.Screen::set_fullScreen(System.Boolean)
+extern "C" IL2CPP_METHOD_ATTR void Screen_set_fullScreen_m3856621075 (RuntimeObject * __this /* static, unused */, bool ___value0, const RuntimeMethod* method)
+{
+	typedef void (*Screen_set_fullScreen_m3856621075_ftn) (bool);
+	static Screen_set_fullScreen_m3856621075_ftn _il2cpp_icall_func;
+	if (!_il2cpp_icall_func)
+	_il2cpp_icall_func = (Screen_set_fullScreen_m3856621075_ftn)il2cpp_codegen_resolve_icall ("UnityEngine.Screen::set_fullScreen(System.Boolean)");
+	_il2cpp_icall_func(___value0);
+}
 #ifdef __clang__
 #pragma clang diagnostic pop
 #endif
@@ -17437,6 +17446,15 @@ extern "C" IL2CPP_METHOD_ATTR void Transform_SetAsFirstSibling_m253439912 (Trans
 	if (!_il2cpp_icall_func)
 	_il2cpp_icall_func = (Transform_SetAsFirstSibling_m253439912_ftn)il2cpp_codegen_resolve_icall ("UnityEngine.Transform::SetAsFirstSibling()");
 	_il2cpp_icall_func(__this);
+}
+// System.Void UnityEngine.Transform::SetSiblingIndex(System.Int32)
+extern "C" IL2CPP_METHOD_ATTR void Transform_SetSiblingIndex_m1077399982 (Transform_t3600365921 * __this, int32_t ___index0, const RuntimeMethod* method)
+{
+	typedef void (*Transform_SetSiblingIndex_m1077399982_ftn) (Transform_t3600365921 *, int32_t);
+	static Transform_SetSiblingIndex_m1077399982_ftn _il2cpp_icall_func;
+	if (!_il2cpp_icall_func)
+	_il2cpp_icall_func = (Transform_SetSiblingIndex_m1077399982_ftn)il2cpp_codegen_resolve_icall ("UnityEngine.Transform::SetSiblingIndex(System.Int32)");
+	_il2cpp_icall_func(__this, ___index0);
 }
 // UnityEngine.Vector3 UnityEngine.Transform::get_lossyScale()
 extern "C" IL2CPP_METHOD_ATTR Vector3_t3722313464  Transform_get_lossyScale_m465496651 (Transform_t3600365921 * __this, const RuntimeMethod* method)

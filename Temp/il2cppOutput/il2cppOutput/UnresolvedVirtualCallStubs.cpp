@@ -9126,37 +9126,43 @@ static  int32_t UnresolvedVirtualCall_463 (RuntimeObject * __this, RaycastHit_t1
 	il2cpp_codegen_no_return();
 }
 
-static  int8_t UnresolvedVirtualCall_464 (RuntimeObject * __this, int32_t ___Int321, intptr_t ___IntPtr2, const RuntimeMethod* method)
+static  int8_t UnresolvedVirtualCall_464 (RuntimeObject * __this, int16_t ___Int161, const RuntimeMethod* method)
 {
 	il2cpp_codegen_raise_execution_engine_exception(method);
 	il2cpp_codegen_no_return();
 }
 
-static  void UnresolvedVirtualCall_465 (RuntimeObject * __this, Scene_t2348375561  ___Scene1, const RuntimeMethod* method)
+static  int8_t UnresolvedVirtualCall_465 (RuntimeObject * __this, int32_t ___Int321, intptr_t ___IntPtr2, const RuntimeMethod* method)
 {
 	il2cpp_codegen_raise_execution_engine_exception(method);
 	il2cpp_codegen_no_return();
 }
 
-static  void UnresolvedVirtualCall_466 (RuntimeObject * __this, Scene_t2348375561  ___Scene1, int32_t ___Int322, const RuntimeMethod* method)
+static  void UnresolvedVirtualCall_466 (RuntimeObject * __this, Scene_t2348375561  ___Scene1, const RuntimeMethod* method)
 {
 	il2cpp_codegen_raise_execution_engine_exception(method);
 	il2cpp_codegen_no_return();
 }
 
-static  void UnresolvedVirtualCall_467 (RuntimeObject * __this, Scene_t2348375561  ___Scene1, Scene_t2348375561  ___Scene2, const RuntimeMethod* method)
+static  void UnresolvedVirtualCall_467 (RuntimeObject * __this, Scene_t2348375561  ___Scene1, int32_t ___Int322, const RuntimeMethod* method)
 {
 	il2cpp_codegen_raise_execution_engine_exception(method);
 	il2cpp_codegen_no_return();
 }
 
-static  void UnresolvedVirtualCall_468 (RuntimeObject * __this, RuntimeObject * ___Object1, RuntimeObject * ___Object2, RuntimeObject * ___Object3, RuntimeObject * ___Object4, const RuntimeMethod* method)
+static  void UnresolvedVirtualCall_468 (RuntimeObject * __this, Scene_t2348375561  ___Scene1, Scene_t2348375561  ___Scene2, const RuntimeMethod* method)
 {
 	il2cpp_codegen_raise_execution_engine_exception(method);
 	il2cpp_codegen_no_return();
 }
 
-extern const Il2CppMethodPointer g_UnresolvedVirtualMethodPointers[469] = 
+static  void UnresolvedVirtualCall_469 (RuntimeObject * __this, RuntimeObject * ___Object1, RuntimeObject * ___Object2, RuntimeObject * ___Object3, RuntimeObject * ___Object4, const RuntimeMethod* method)
+{
+	il2cpp_codegen_raise_execution_engine_exception(method);
+	il2cpp_codegen_no_return();
+}
+
+extern const Il2CppMethodPointer g_UnresolvedVirtualMethodPointers[470] = 
 {
 	(const Il2CppMethodPointer) UnresolvedVirtualCall_0,
 	(const Il2CppMethodPointer) UnresolvedVirtualCall_1,
@@ -9627,4 +9633,5 @@ extern const Il2CppMethodPointer g_UnresolvedVirtualMethodPointers[469] =
 	(const Il2CppMethodPointer) UnresolvedVirtualCall_466,
 	(const Il2CppMethodPointer) UnresolvedVirtualCall_467,
 	(const Il2CppMethodPointer) UnresolvedVirtualCall_468,
+	(const Il2CppMethodPointer) UnresolvedVirtualCall_469,
 };

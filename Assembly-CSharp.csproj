@@ -61,6 +61,11 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\AWE Estimote\Scripts\AWE_Estimote.cs" />
+    <Compile Include="Assets\AWE Estimote\Scripts\AWE_Estimote_Beacon.cs" />
+    <Compile Include="Assets\AWE Estimote\Scripts\TestScene\AWE_Estimote_Beacon_Handler.cs" />
+    <Compile Include="Assets\AWE Estimote\Scripts\TestScene\AWE_Estimote_Example.cs" />
+    <Compile Include="Assets\AWE Estimote\Scripts\TestScene\OrderScrollContent.cs" />
     <Compile Include="Assets\Common\Scripts\AboutManager.cs" />
     <Compile Include="Assets\Common\Scripts\AboutScreen.cs" />
     <Compile Include="Assets\Common\Scripts\AboutScreenInfo.cs" />

@@ -61,6 +61,7 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\AWE Estimote\Editor\AWE_Estimote_Editor.cs" />
     <Compile Include="Assets\Common\Editor\ConfigurePlayerSettings.cs" />
     <Compile Include="Assets\Common\Editor\OptionsConfigEditor.cs" />
     <Compile Include="Assets\Common\Editor\TrackableSettingsEditor.cs" />

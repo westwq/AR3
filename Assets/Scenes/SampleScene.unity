@@ -450,7 +450,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 0, y: 0}
+  m_AnchoredPosition: {x: 100, y: 0}
   m_SizeDelta: {x: 500, y: 100}
   m_Pivot: {x: 0, y: 0}
 --- !u!114 &719607249
@@ -656,6 +656,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 992071736}
+  - component: {fileID: 992071737}
   - component: {fileID: 992071735}
   m_Layer: 0
   m_Name: GameObject
@@ -677,6 +678,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   heading: 0
   txt: {fileID: 719607249}
+  awe_estimote: {fileID: 992071737}
 --- !u!4 &992071736
 Transform:
   m_ObjectHideFlags: 0
@@ -690,6 +692,31 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &992071737
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 992071734}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 329039621fc0470449c5dc7da81051a6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  appId: testhm-98n
+  appToken: e0459faba9a0ed33916180e5d851728c
+  debugEstimoteCloud: 1
+  debugEstimoteInfo: 
+  uuid: 2f234454-cf6d-4a0f-adf2-f4911ba9ffa6
+  beacons: []
+  beaconPrefab: {fileID: 0}
+  beaconsScrollContent: {fileID: 0}
+  initialized: 0
+  searching: 0
+  beginScanAtStart: 1
+  promptForBT: 1
+  scanPeriodMillis: 6000
+  waitTimeMillis: 0
 --- !u!1 &1178019295
 GameObject:
   m_ObjectHideFlags: 0

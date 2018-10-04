@@ -4,7 +4,7 @@
 PlayerSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 15
-  productGUID: 00000000000000000000000000000000
+  productGUID: 19721786398ac4cc5ad8055bc893b360
   AndroidProfiler: 0
   AndroidFilterTouchesWhenObscured: 0
   AndroidEnableSustainedPerformanceMode: 0
@@ -152,7 +152,7 @@ PlayerSettings:
   androidMaxAspectRatio: 2.1
   applicationIdentifier:
     Android: com.vuforia.samples.VuforiaSamples
-    iOS: com.vuforia.samples.VuforiaSamples
+    iOS: com.westwq.ar3
   buildNumber:
     iOS: 0
   AndroidBundleVersionCode: 1
@@ -716,7 +716,7 @@ PlayerSettings:
   facebookSdkVersion: 7.9.4
   apiCompatibilityLevel: 2
   cloudProjectId: 85fb0918-db24-4d47-ac31-3c57f9bf3094
-  projectName: 
+  projectName: AR3
   organizationId: westwq
   cloudEnabled: 0
   enableNativePlatformBackendsForNewInputSystem: 0

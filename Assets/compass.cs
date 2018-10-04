@@ -13,6 +13,8 @@ public class Compass : MonoBehaviour
     private float b27Heading = 90;
     private float bound = 60;
 
+    public AWE_Estimote awe_estimote;
+
     private void Awake()
     {
         instance = this;
@@ -24,6 +26,12 @@ public class Compass : MonoBehaviour
         heading = 0;
         txt.text = "starting";
         StartCoroutine(InitializeLocation());
+
+        Debug.Log("<color=red>Estimote</color>");
+        //Instantiate(awe_estimote);
+        awe_estimote.beginScanAtStart = true;
+        awe_estimote.Setup();
+        //awe_estimote.StartScan();
 
     }
     public IEnumerator InitializeLocation()
@@ -67,6 +75,16 @@ public class Compass : MonoBehaviour
     {
         heading = Input.compass.trueHeading;
         txt.text = heading.ToString();
+
+        if (awe_estimote.beacons == null)
+        {
+            awe_estimote.StartScan();
+            txt.text += "(X)";
+        }
+        else
+        {
+            txt.text += "(" + awe_estimote.beacons.Count + ")";
+        }
         txt.text += ":" + GetLoc().ToString();
     }
 

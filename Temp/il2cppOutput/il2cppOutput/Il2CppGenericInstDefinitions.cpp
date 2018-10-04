@@ -458,6 +458,7 @@ extern const Il2CppType BackgroundPlaneBehaviour_t3333547397_0_0_0;
 extern const Il2CppType Link_t3462708206_0_0_0;
 extern const Il2CppType IVirtualButtonEventHandler_t3188643434_0_0_0;
 extern const Il2CppType WireframeBehaviour_t1831066704_0_0_0;
+extern const Il2CppType AWE_Estimote_Beacon_t1724253500_0_0_0;
 extern const Il2CppType KeyValuePair_2_t4030379155_0_0_0;
 extern const Il2CppType Option_t3694458217_0_0_0;
 extern const Il2CppType Astronaut_t1874369735_0_0_0;
@@ -508,12 +509,16 @@ extern const Il2CppType CylinderTargetBehaviour_t822809409_0_0_0;
 extern const Il2CppType ObjectTargetBehaviour_t728125005_0_0_0;
 extern const Il2CppType VuforiaConfiguration_t1763229349_0_0_0;
 extern const Il2CppType DefaultInitializationErrorHandlerInternal_t2721934644_0_0_0;
+extern const Il2CppType AndroidJavaObject_t4131667876_0_0_0;
+extern const Il2CppType AWE_Estimote_Beacon_Handler_t2434882948_0_0_0;
+extern const Il2CppType OrderScrollContent_t919336011_0_0_0;
 extern const Il2CppType CloudRecoBehaviour_t431762792_0_0_0;
 extern const Il2CppType ScanLine_t269422218_0_0_0;
 extern const Il2CppType CloudRecoContentManager_t2370613772_0_0_0;
 extern const Il2CppType TrackableSettings_t2862243993_0_0_0;
 extern const Il2CppType CloudRecoTrackableEventHandler_t3792508927_0_0_0;
 extern const Il2CppType CloudRecoEventHandler_t613522768_0_0_0;
+extern const Il2CppType AWE_Estimote_t2607080122_0_0_0;
 extern const Il2CppType ParticleSystem_t1800779281_0_0_0;
 extern const Il2CppType ProductPlacement_t2927687625_0_0_0;
 extern const Il2CppType TouchHandler_t3441426771_0_0_0;
@@ -633,6 +638,7 @@ extern const Il2CppType Enumerable_Any_m1084009618_gp_0_0_0_0;
 extern const Il2CppType Enumerable_Cast_m1697635848_gp_0_0_0_0;
 extern const Il2CppType Enumerable_CreateCastIterator_m3040449305_gp_0_0_0_0;
 extern const Il2CppType Enumerable_Count_m1150147237_gp_0_0_0_0;
+extern const Il2CppType Enumerable_Count_m2276137811_gp_0_0_0_0;
 extern const Il2CppType Enumerable_ElementAt_m1224816048_gp_0_0_0_0;
 extern const Il2CppType Enumerable_ElementAt_m255591664_gp_0_0_0_0;
 extern const Il2CppType Enumerable_Empty_m2244458176_gp_0_0_0_0;
@@ -1861,6 +1867,12 @@ static const RuntimeType* GenInst_IVirtualButtonEventHandler_t3188643434_0_0_0_T
 extern const Il2CppGenericInst GenInst_IVirtualButtonEventHandler_t3188643434_0_0_0 = { 1, GenInst_IVirtualButtonEventHandler_t3188643434_0_0_0_Types };
 static const RuntimeType* GenInst_WireframeBehaviour_t1831066704_0_0_0_Types[] = { (&WireframeBehaviour_t1831066704_0_0_0) };
 extern const Il2CppGenericInst GenInst_WireframeBehaviour_t1831066704_0_0_0 = { 1, GenInst_WireframeBehaviour_t1831066704_0_0_0_Types };
+static const RuntimeType* GenInst_AWE_Estimote_Beacon_t1724253500_0_0_0_Types[] = { (&AWE_Estimote_Beacon_t1724253500_0_0_0) };
+extern const Il2CppGenericInst GenInst_AWE_Estimote_Beacon_t1724253500_0_0_0 = { 1, GenInst_AWE_Estimote_Beacon_t1724253500_0_0_0_Types };
+static const RuntimeType* GenInst_Char_t3634460470_0_0_0_Boolean_t97287965_0_0_0_Types[] = { (&Char_t3634460470_0_0_0), (&Boolean_t97287965_0_0_0) };
+extern const Il2CppGenericInst GenInst_Char_t3634460470_0_0_0_Boolean_t97287965_0_0_0 = { 2, GenInst_Char_t3634460470_0_0_0_Boolean_t97287965_0_0_0_Types };
+static const RuntimeType* GenInst_AWE_Estimote_Beacon_t1724253500_0_0_0_Boolean_t97287965_0_0_0_Types[] = { (&AWE_Estimote_Beacon_t1724253500_0_0_0), (&Boolean_t97287965_0_0_0) };
+extern const Il2CppGenericInst GenInst_AWE_Estimote_Beacon_t1724253500_0_0_0_Boolean_t97287965_0_0_0 = { 2, GenInst_AWE_Estimote_Beacon_t1724253500_0_0_0_Boolean_t97287965_0_0_0_Types };
 static const RuntimeType* GenInst_String_t_0_0_0_String_t_0_0_0_Types[] = { (&String_t_0_0_0), (&String_t_0_0_0) };
 extern const Il2CppGenericInst GenInst_String_t_0_0_0_String_t_0_0_0 = { 2, GenInst_String_t_0_0_0_String_t_0_0_0_Types };
 static const RuntimeType* GenInst_String_t_0_0_0_String_t_0_0_0_DictionaryEntry_t3123975638_0_0_0_Types[] = { (&String_t_0_0_0), (&String_t_0_0_0), (&DictionaryEntry_t3123975638_0_0_0) };
@@ -1977,6 +1989,12 @@ static const RuntimeType* GenInst_VuforiaConfiguration_t1763229349_0_0_0_Types[]
 extern const Il2CppGenericInst GenInst_VuforiaConfiguration_t1763229349_0_0_0 = { 1, GenInst_VuforiaConfiguration_t1763229349_0_0_0_Types };
 static const RuntimeType* GenInst_DefaultInitializationErrorHandlerInternal_t2721934644_0_0_0_Types[] = { (&DefaultInitializationErrorHandlerInternal_t2721934644_0_0_0) };
 extern const Il2CppGenericInst GenInst_DefaultInitializationErrorHandlerInternal_t2721934644_0_0_0 = { 1, GenInst_DefaultInitializationErrorHandlerInternal_t2721934644_0_0_0_Types };
+static const RuntimeType* GenInst_AndroidJavaObject_t4131667876_0_0_0_Types[] = { (&AndroidJavaObject_t4131667876_0_0_0) };
+extern const Il2CppGenericInst GenInst_AndroidJavaObject_t4131667876_0_0_0 = { 1, GenInst_AndroidJavaObject_t4131667876_0_0_0_Types };
+static const RuntimeType* GenInst_AWE_Estimote_Beacon_Handler_t2434882948_0_0_0_Types[] = { (&AWE_Estimote_Beacon_Handler_t2434882948_0_0_0) };
+extern const Il2CppGenericInst GenInst_AWE_Estimote_Beacon_Handler_t2434882948_0_0_0 = { 1, GenInst_AWE_Estimote_Beacon_Handler_t2434882948_0_0_0_Types };
+static const RuntimeType* GenInst_OrderScrollContent_t919336011_0_0_0_Types[] = { (&OrderScrollContent_t919336011_0_0_0) };
+extern const Il2CppGenericInst GenInst_OrderScrollContent_t919336011_0_0_0 = { 1, GenInst_OrderScrollContent_t919336011_0_0_0_Types };
 static const RuntimeType* GenInst_CloudRecoBehaviour_t431762792_0_0_0_Types[] = { (&CloudRecoBehaviour_t431762792_0_0_0) };
 extern const Il2CppGenericInst GenInst_CloudRecoBehaviour_t431762792_0_0_0 = { 1, GenInst_CloudRecoBehaviour_t431762792_0_0_0_Types };
 static const RuntimeType* GenInst_ScanLine_t269422218_0_0_0_Types[] = { (&ScanLine_t269422218_0_0_0) };
@@ -1989,6 +2007,8 @@ static const RuntimeType* GenInst_CloudRecoTrackableEventHandler_t3792508927_0_0
 extern const Il2CppGenericInst GenInst_CloudRecoTrackableEventHandler_t3792508927_0_0_0 = { 1, GenInst_CloudRecoTrackableEventHandler_t3792508927_0_0_0_Types };
 static const RuntimeType* GenInst_CloudRecoEventHandler_t613522768_0_0_0_Types[] = { (&CloudRecoEventHandler_t613522768_0_0_0) };
 extern const Il2CppGenericInst GenInst_CloudRecoEventHandler_t613522768_0_0_0 = { 1, GenInst_CloudRecoEventHandler_t613522768_0_0_0_Types };
+static const RuntimeType* GenInst_AWE_Estimote_t2607080122_0_0_0_Types[] = { (&AWE_Estimote_t2607080122_0_0_0) };
+extern const Il2CppGenericInst GenInst_AWE_Estimote_t2607080122_0_0_0 = { 1, GenInst_AWE_Estimote_t2607080122_0_0_0_Types };
 static const RuntimeType* GenInst_ParticleSystem_t1800779281_0_0_0_Types[] = { (&ParticleSystem_t1800779281_0_0_0) };
 extern const Il2CppGenericInst GenInst_ParticleSystem_t1800779281_0_0_0 = { 1, GenInst_ParticleSystem_t1800779281_0_0_0_Types };
 static const RuntimeType* GenInst_ProductPlacement_t2927687625_0_0_0_Types[] = { (&ProductPlacement_t2927687625_0_0_0) };
@@ -2357,6 +2377,10 @@ static const RuntimeType* GenInst_Enumerable_CreateCastIterator_m3040449305_gp_0
 extern const Il2CppGenericInst GenInst_Enumerable_CreateCastIterator_m3040449305_gp_0_0_0_0 = { 1, GenInst_Enumerable_CreateCastIterator_m3040449305_gp_0_0_0_0_Types };
 static const RuntimeType* GenInst_Enumerable_Count_m1150147237_gp_0_0_0_0_Types[] = { (&Enumerable_Count_m1150147237_gp_0_0_0_0) };
 extern const Il2CppGenericInst GenInst_Enumerable_Count_m1150147237_gp_0_0_0_0 = { 1, GenInst_Enumerable_Count_m1150147237_gp_0_0_0_0_Types };
+static const RuntimeType* GenInst_Enumerable_Count_m2276137811_gp_0_0_0_0_Types[] = { (&Enumerable_Count_m2276137811_gp_0_0_0_0) };
+extern const Il2CppGenericInst GenInst_Enumerable_Count_m2276137811_gp_0_0_0_0 = { 1, GenInst_Enumerable_Count_m2276137811_gp_0_0_0_0_Types };
+static const RuntimeType* GenInst_Enumerable_Count_m2276137811_gp_0_0_0_0_Boolean_t97287965_0_0_0_Types[] = { (&Enumerable_Count_m2276137811_gp_0_0_0_0), (&Boolean_t97287965_0_0_0) };
+extern const Il2CppGenericInst GenInst_Enumerable_Count_m2276137811_gp_0_0_0_0_Boolean_t97287965_0_0_0 = { 2, GenInst_Enumerable_Count_m2276137811_gp_0_0_0_0_Boolean_t97287965_0_0_0_Types };
 static const RuntimeType* GenInst_Enumerable_ElementAt_m1224816048_gp_0_0_0_0_Types[] = { (&Enumerable_ElementAt_m1224816048_gp_0_0_0_0) };
 extern const Il2CppGenericInst GenInst_Enumerable_ElementAt_m1224816048_gp_0_0_0_0 = { 1, GenInst_Enumerable_ElementAt_m1224816048_gp_0_0_0_0_Types };
 static const RuntimeType* GenInst_Enumerable_ElementAt_m255591664_gp_0_0_0_0_Types[] = { (&Enumerable_ElementAt_m255591664_gp_0_0_0_0) };
@@ -2537,7 +2561,7 @@ static const RuntimeType* GenInst_AugmentationStateMachineBehaviour_GetMethod_m5
 extern const Il2CppGenericInst GenInst_AugmentationStateMachineBehaviour_GetMethod_m586052530_gp_0_0_0_0 = { 1, GenInst_AugmentationStateMachineBehaviour_GetMethod_m586052530_gp_0_0_0_0_Types };
 static const RuntimeType* GenInst_AugmentationStateMachineBehaviour_AddDelegateToCache_m4254555934_gp_0_0_0_0_Types[] = { (&AugmentationStateMachineBehaviour_AddDelegateToCache_m4254555934_gp_0_0_0_0) };
 extern const Il2CppGenericInst GenInst_AugmentationStateMachineBehaviour_AddDelegateToCache_m4254555934_gp_0_0_0_0 = { 1, GenInst_AugmentationStateMachineBehaviour_AddDelegateToCache_m4254555934_gp_0_0_0_0_Types };
-extern const Il2CppGenericInst* const g_Il2CppGenericInstTable[907] = 
+extern const Il2CppGenericInst* const g_Il2CppGenericInstTable[916] = 
 {
 	&GenInst_RuntimeObject_0_0_0,
 	&GenInst_Int32_t2950945753_0_0_0,
@@ -3108,6 +3132,9 @@ extern const Il2CppGenericInst* const g_Il2CppGenericInstTable[907] =
 	&GenInst_Link_t3462708206_0_0_0,
 	&GenInst_IVirtualButtonEventHandler_t3188643434_0_0_0,
 	&GenInst_WireframeBehaviour_t1831066704_0_0_0,
+	&GenInst_AWE_Estimote_Beacon_t1724253500_0_0_0,
+	&GenInst_Char_t3634460470_0_0_0_Boolean_t97287965_0_0_0,
+	&GenInst_AWE_Estimote_Beacon_t1724253500_0_0_0_Boolean_t97287965_0_0_0,
 	&GenInst_String_t_0_0_0_String_t_0_0_0,
 	&GenInst_String_t_0_0_0_String_t_0_0_0_DictionaryEntry_t3123975638_0_0_0,
 	&GenInst_KeyValuePair_2_t4030379155_0_0_0,
@@ -3166,12 +3193,16 @@ extern const Il2CppGenericInst* const g_Il2CppGenericInstTable[907] =
 	&GenInst_ObjectTargetBehaviour_t728125005_0_0_0,
 	&GenInst_VuforiaConfiguration_t1763229349_0_0_0,
 	&GenInst_DefaultInitializationErrorHandlerInternal_t2721934644_0_0_0,
+	&GenInst_AndroidJavaObject_t4131667876_0_0_0,
+	&GenInst_AWE_Estimote_Beacon_Handler_t2434882948_0_0_0,
+	&GenInst_OrderScrollContent_t919336011_0_0_0,
 	&GenInst_CloudRecoBehaviour_t431762792_0_0_0,
 	&GenInst_ScanLine_t269422218_0_0_0,
 	&GenInst_CloudRecoContentManager_t2370613772_0_0_0,
 	&GenInst_TrackableSettings_t2862243993_0_0_0,
 	&GenInst_CloudRecoTrackableEventHandler_t3792508927_0_0_0,
 	&GenInst_CloudRecoEventHandler_t613522768_0_0_0,
+	&GenInst_AWE_Estimote_t2607080122_0_0_0,
 	&GenInst_ParticleSystem_t1800779281_0_0_0,
 	&GenInst_ProductPlacement_t2927687625_0_0_0,
 	&GenInst_TouchHandler_t3441426771_0_0_0,
@@ -3356,6 +3387,8 @@ extern const Il2CppGenericInst* const g_Il2CppGenericInstTable[907] =
 	&GenInst_Enumerable_Cast_m1697635848_gp_0_0_0_0,
 	&GenInst_Enumerable_CreateCastIterator_m3040449305_gp_0_0_0_0,
 	&GenInst_Enumerable_Count_m1150147237_gp_0_0_0_0,
+	&GenInst_Enumerable_Count_m2276137811_gp_0_0_0_0,
+	&GenInst_Enumerable_Count_m2276137811_gp_0_0_0_0_Boolean_t97287965_0_0_0,
 	&GenInst_Enumerable_ElementAt_m1224816048_gp_0_0_0_0,
 	&GenInst_Enumerable_ElementAt_m255591664_gp_0_0_0_0,
 	&GenInst_Enumerable_Empty_m2244458176_gp_0_0_0_0,

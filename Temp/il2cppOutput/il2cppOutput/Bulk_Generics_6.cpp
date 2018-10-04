@@ -228,6 +228,8 @@ struct ArgumentException_t132251570;
 struct ArgumentNullException_t1615371798;
 // System.AsyncCallback
 struct AsyncCallback_t3962456242;
+// System.Byte
+struct Byte_t1134296376;
 // System.Char[]
 struct CharU5BU5D_t3528271667;
 // System.Collections.Generic.IEnumerable`1<System.Object>
@@ -422,10 +424,14 @@ struct Comparison_1_t4002281636;
 struct Converter_2_t2442480487;
 // System.DelegateData
 struct DelegateData_t1677132599;
+// System.Double
+struct Double_t594665363;
 // System.Func`1<System.Boolean>
 struct Func_1_t3822001908;
 // System.Func`1<System.Object>
 struct Func_1_t2509852811;
+// System.Func`2<System.Char,System.Boolean>
+struct Func_2_t148644517;
 // System.Func`2<System.Object,System.Boolean>
 struct Func_2_t3759279471;
 // System.Func`2<System.Object,System.Object>
@@ -472,6 +478,8 @@ struct String_t;
 struct Type_t;
 // System.Type[]
 struct TypeU5BU5D_t3940880105;
+// System.UInt16
+struct UInt16_t2177724958;
 // System.Void
 struct Void_t1185182177;
 // UnityEngine.BeforeRenderHelper/OrderBlock[]
@@ -516,6 +524,7 @@ struct TrackableIdPairU5BU5D_t475764036;
 extern RuntimeClass* ArgumentException_t132251570_il2cpp_TypeInfo_var;
 extern RuntimeClass* ArgumentNullException_t1615371798_il2cpp_TypeInfo_var;
 extern RuntimeClass* CameraField_t1483002240_il2cpp_TypeInfo_var;
+extern RuntimeClass* Char_t3634460470_il2cpp_TypeInfo_var;
 extern RuntimeClass* Color32_t2600501292_il2cpp_TypeInfo_var;
 extern RuntimeClass* CustomAttributeNamedArgument_t287865710_il2cpp_TypeInfo_var;
 extern RuntimeClass* CustomAttributeTypedArgument_t2723150157_il2cpp_TypeInfo_var;
@@ -911,6 +920,7 @@ extern const uint32_t Comparison_1_BeginInvoke_m4264168485_MetadataUsageId;
 extern const uint32_t Comparison_1_BeginInvoke_m793617530_MetadataUsageId;
 extern const uint32_t Comparison_1_BeginInvoke_m816899747_MetadataUsageId;
 extern const uint32_t Func_2_BeginInvoke_m3143954511_MetadataUsageId;
+extern const uint32_t Func_2_BeginInvoke_m948909852_MetadataUsageId;
 extern const uint32_t Func_3_BeginInvoke_m2576783546_MetadataUsageId;
 extern const uint32_t Func_3_BeginInvoke_m3820883151_MetadataUsageId;
 extern const uint32_t ReadOnlyCollection_1_System_Collections_Generic_ICollectionU3CTU3E_Add_m1439712064_MetadataUsageId;
@@ -3430,6 +3440,111 @@ public:
 #pragma clang diagnostic pop
 #endif
 #endif // BOOLEAN_T97287965_H
+#ifndef CHAR_T3634460470_H
+#define CHAR_T3634460470_H
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+
+// System.Char
+struct  Char_t3634460470 
+{
+public:
+	// System.Char System.Char::m_value
+	Il2CppChar ___m_value_2;
+
+public:
+	inline static int32_t get_offset_of_m_value_2() { return static_cast<int32_t>(offsetof(Char_t3634460470, ___m_value_2)); }
+	inline Il2CppChar get_m_value_2() const { return ___m_value_2; }
+	inline Il2CppChar* get_address_of_m_value_2() { return &___m_value_2; }
+	inline void set_m_value_2(Il2CppChar value)
+	{
+		___m_value_2 = value;
+	}
+};
+
+struct Char_t3634460470_StaticFields
+{
+public:
+	// System.Byte* System.Char::category_data
+	uint8_t* ___category_data_3;
+	// System.Byte* System.Char::numeric_data
+	uint8_t* ___numeric_data_4;
+	// System.Double* System.Char::numeric_data_values
+	double* ___numeric_data_values_5;
+	// System.UInt16* System.Char::to_lower_data_low
+	uint16_t* ___to_lower_data_low_6;
+	// System.UInt16* System.Char::to_lower_data_high
+	uint16_t* ___to_lower_data_high_7;
+	// System.UInt16* System.Char::to_upper_data_low
+	uint16_t* ___to_upper_data_low_8;
+	// System.UInt16* System.Char::to_upper_data_high
+	uint16_t* ___to_upper_data_high_9;
+
+public:
+	inline static int32_t get_offset_of_category_data_3() { return static_cast<int32_t>(offsetof(Char_t3634460470_StaticFields, ___category_data_3)); }
+	inline uint8_t* get_category_data_3() const { return ___category_data_3; }
+	inline uint8_t** get_address_of_category_data_3() { return &___category_data_3; }
+	inline void set_category_data_3(uint8_t* value)
+	{
+		___category_data_3 = value;
+	}
+
+	inline static int32_t get_offset_of_numeric_data_4() { return static_cast<int32_t>(offsetof(Char_t3634460470_StaticFields, ___numeric_data_4)); }
+	inline uint8_t* get_numeric_data_4() const { return ___numeric_data_4; }
+	inline uint8_t** get_address_of_numeric_data_4() { return &___numeric_data_4; }
+	inline void set_numeric_data_4(uint8_t* value)
+	{
+		___numeric_data_4 = value;
+	}
+
+	inline static int32_t get_offset_of_numeric_data_values_5() { return static_cast<int32_t>(offsetof(Char_t3634460470_StaticFields, ___numeric_data_values_5)); }
+	inline double* get_numeric_data_values_5() const { return ___numeric_data_values_5; }
+	inline double** get_address_of_numeric_data_values_5() { return &___numeric_data_values_5; }
+	inline void set_numeric_data_values_5(double* value)
+	{
+		___numeric_data_values_5 = value;
+	}
+
+	inline static int32_t get_offset_of_to_lower_data_low_6() { return static_cast<int32_t>(offsetof(Char_t3634460470_StaticFields, ___to_lower_data_low_6)); }
+	inline uint16_t* get_to_lower_data_low_6() const { return ___to_lower_data_low_6; }
+	inline uint16_t** get_address_of_to_lower_data_low_6() { return &___to_lower_data_low_6; }
+	inline void set_to_lower_data_low_6(uint16_t* value)
+	{
+		___to_lower_data_low_6 = value;
+	}
+
+	inline static int32_t get_offset_of_to_lower_data_high_7() { return static_cast<int32_t>(offsetof(Char_t3634460470_StaticFields, ___to_lower_data_high_7)); }
+	inline uint16_t* get_to_lower_data_high_7() const { return ___to_lower_data_high_7; }
+	inline uint16_t** get_address_of_to_lower_data_high_7() { return &___to_lower_data_high_7; }
+	inline void set_to_lower_data_high_7(uint16_t* value)
+	{
+		___to_lower_data_high_7 = value;
+	}
+
+	inline static int32_t get_offset_of_to_upper_data_low_8() { return static_cast<int32_t>(offsetof(Char_t3634460470_StaticFields, ___to_upper_data_low_8)); }
+	inline uint16_t* get_to_upper_data_low_8() const { return ___to_upper_data_low_8; }
+	inline uint16_t** get_address_of_to_upper_data_low_8() { return &___to_upper_data_low_8; }
+	inline void set_to_upper_data_low_8(uint16_t* value)
+	{
+		___to_upper_data_low_8 = value;
+	}
+
+	inline static int32_t get_offset_of_to_upper_data_high_9() { return static_cast<int32_t>(offsetof(Char_t3634460470_StaticFields, ___to_upper_data_high_9)); }
+	inline uint16_t* get_to_upper_data_high_9() const { return ___to_upper_data_high_9; }
+	inline uint16_t** get_address_of_to_upper_data_high_9() { return &___to_upper_data_high_9; }
+	inline void set_to_upper_data_high_9(uint16_t* value)
+	{
+		___to_upper_data_high_9 = value;
+	}
+};
+
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#endif // CHAR_T3634460470_H
 #ifndef ENUM_T4135868527_H
 #define ENUM_T4135868527_H
 #ifdef __clang__
@@ -6406,6 +6521,26 @@ public:
 #pragma clang diagnostic pop
 #endif
 #endif // FUNC_1_T2509852811_H
+#ifndef FUNC_2_T148644517_H
+#define FUNC_2_T148644517_H
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+
+// System.Func`2<System.Char,System.Boolean>
+struct  Func_2_t148644517  : public MulticastDelegate_t
+{
+public:
+
+public:
+};
+
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#endif // FUNC_2_T148644517_H
 #ifndef FUNC_2_T3759279471_H
 #define FUNC_2_T3759279471_H
 #ifdef __clang__
@@ -7298,6 +7433,8 @@ extern "C" IL2CPP_METHOD_ATTR RuntimeObject * Converter_2_Invoke_m2710846192_gsh
 extern "C" IL2CPP_METHOD_ATTR bool Func_1_Invoke_m370346740_gshared (Func_1_t3822001908 * __this, const RuntimeMethod* method);
 // TResult System.Func`1<System.Object>::Invoke()
 extern "C" IL2CPP_METHOD_ATTR RuntimeObject * Func_1_Invoke_m939761484_gshared (Func_1_t2509852811 * __this, const RuntimeMethod* method);
+// TResult System.Func`2<System.Char,System.Boolean>::Invoke(T)
+extern "C" IL2CPP_METHOD_ATTR bool Func_2_Invoke_m1739412419_gshared (Func_2_t148644517 * __this, Il2CppChar ___arg10, const RuntimeMethod* method);
 // TResult System.Func`2<System.Object,System.Boolean>::Invoke(T)
 extern "C" IL2CPP_METHOD_ATTR bool Func_2_Invoke_m1574203759_gshared (Func_2_t3759279471 * __this, RuntimeObject * ___arg10, const RuntimeMethod* method);
 // TResult System.Func`2<System.Object,System.Object>::Invoke(T)
@@ -7444,6 +7581,11 @@ inline bool Func_1_Invoke_m370346740 (Func_1_t3822001908 * __this, const Runtime
 inline RuntimeObject * Func_1_Invoke_m939761484 (Func_1_t2509852811 * __this, const RuntimeMethod* method)
 {
 	return ((  RuntimeObject * (*) (Func_1_t2509852811 *, const RuntimeMethod*))Func_1_Invoke_m939761484_gshared)(__this, method);
+}
+// TResult System.Func`2<System.Char,System.Boolean>::Invoke(T)
+inline bool Func_2_Invoke_m1739412419 (Func_2_t148644517 * __this, Il2CppChar ___arg10, const RuntimeMethod* method)
+{
+	return ((  bool (*) (Func_2_t148644517 *, Il2CppChar, const RuntimeMethod*))Func_2_Invoke_m1739412419_gshared)(__this, ___arg10, method);
 }
 // TResult System.Func`2<System.Object,System.Boolean>::Invoke(T)
 inline bool Func_2_Invoke_m1574203759 (Func_2_t3759279471 * __this, RuntimeObject * ___arg10, const RuntimeMethod* method)
@@ -23844,6 +23986,102 @@ extern "C" IL2CPP_METHOD_ATTR RuntimeObject * Func_1_EndInvoke_m3591709415_gshar
 {
 	RuntimeObject *__result = il2cpp_codegen_delegate_end_invoke((Il2CppAsyncResult*) ___result0, 0);
 	return (RuntimeObject *)__result;
+}
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+// System.Void System.Func`2<System.Char,System.Boolean>::.ctor(System.Object,System.IntPtr)
+extern "C" IL2CPP_METHOD_ATTR void Func_2__ctor_m2765760415_gshared (Func_2_t148644517 * __this, RuntimeObject * ___object0, intptr_t ___method1, const RuntimeMethod* method)
+{
+	__this->set_method_ptr_0(il2cpp_codegen_get_method_pointer((RuntimeMethod*)___method1));
+	__this->set_method_3(___method1);
+	__this->set_m_target_2(___object0);
+}
+// TResult System.Func`2<System.Char,System.Boolean>::Invoke(T)
+extern "C" IL2CPP_METHOD_ATTR bool Func_2_Invoke_m1739412419_gshared (Func_2_t148644517 * __this, Il2CppChar ___arg10, const RuntimeMethod* method)
+{
+	bool result = false;
+	if(__this->get_prev_9() != NULL)
+	{
+		Func_2_Invoke_m1739412419((Func_2_t148644517 *)__this->get_prev_9(), ___arg10, method);
+	}
+	Il2CppMethodPointer targetMethodPointer = __this->get_method_ptr_0();
+	RuntimeMethod* targetMethod = (RuntimeMethod*)(__this->get_method_3());
+	RuntimeObject* targetThis = __this->get_m_target_2();
+	il2cpp_codegen_raise_execution_engine_exception_if_method_is_not_found(targetMethod);
+	bool ___methodIsStatic = MethodIsStatic(targetMethod);
+	if (___methodIsStatic)
+	{
+		if (il2cpp_codegen_method_parameter_count(targetMethod) == 1)
+		{
+			// open
+			{
+				typedef bool (*FunctionPointerType) (RuntimeObject *, Il2CppChar, const RuntimeMethod*);
+				result = ((FunctionPointerType)targetMethodPointer)(NULL, ___arg10, targetMethod);
+			}
+		}
+		else
+		{
+			// closed
+			{
+				typedef bool (*FunctionPointerType) (RuntimeObject *, void*, Il2CppChar, const RuntimeMethod*);
+				result = ((FunctionPointerType)targetMethodPointer)(NULL, targetThis, ___arg10, targetMethod);
+			}
+		}
+	}
+	else
+	{
+		{
+			// closed
+			if (il2cpp_codegen_method_is_virtual(targetMethod) && !il2cpp_codegen_object_is_of_sealed_type(targetThis) && il2cpp_codegen_delegate_has_invoker((Il2CppDelegate*)__this))
+			{
+				if (il2cpp_codegen_method_is_generic_instance(targetMethod))
+				{
+					if (il2cpp_codegen_method_is_interface_method(targetMethod))
+						result = GenericInterfaceFuncInvoker1< bool, Il2CppChar >::Invoke(targetMethod, targetThis, ___arg10);
+					else
+						result = GenericVirtFuncInvoker1< bool, Il2CppChar >::Invoke(targetMethod, targetThis, ___arg10);
+				}
+				else
+				{
+					if (il2cpp_codegen_method_is_interface_method(targetMethod))
+						result = InterfaceFuncInvoker1< bool, Il2CppChar >::Invoke(il2cpp_codegen_method_get_slot(targetMethod), il2cpp_codegen_method_get_declaring_type(targetMethod), targetThis, ___arg10);
+					else
+						result = VirtFuncInvoker1< bool, Il2CppChar >::Invoke(il2cpp_codegen_method_get_slot(targetMethod), targetThis, ___arg10);
+				}
+			}
+			else
+			{
+				typedef bool (*FunctionPointerType) (void*, Il2CppChar, const RuntimeMethod*);
+				result = ((FunctionPointerType)targetMethodPointer)(targetThis, ___arg10, targetMethod);
+			}
+		}
+	}
+	return result;
+}
+// System.IAsyncResult System.Func`2<System.Char,System.Boolean>::BeginInvoke(T,System.AsyncCallback,System.Object)
+extern "C" IL2CPP_METHOD_ATTR RuntimeObject* Func_2_BeginInvoke_m948909852_gshared (Func_2_t148644517 * __this, Il2CppChar ___arg10, AsyncCallback_t3962456242 * ___callback1, RuntimeObject * ___object2, const RuntimeMethod* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (Func_2_BeginInvoke_m948909852_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	void *__d_args[2] = {0};
+	__d_args[0] = Box(Char_t3634460470_il2cpp_TypeInfo_var, &___arg10);
+	return (RuntimeObject*)il2cpp_codegen_delegate_begin_invoke((RuntimeDelegate*)__this, __d_args, (RuntimeDelegate*)___callback1, (RuntimeObject*)___object2);
+}
+// TResult System.Func`2<System.Char,System.Boolean>::EndInvoke(System.IAsyncResult)
+extern "C" IL2CPP_METHOD_ATTR bool Func_2_EndInvoke_m574155384_gshared (Func_2_t148644517 * __this, RuntimeObject* ___result0, const RuntimeMethod* method)
+{
+	RuntimeObject *__result = il2cpp_codegen_delegate_end_invoke((Il2CppAsyncResult*) ___result0, 0);
+	return *(bool*)UnBox ((RuntimeObject*)__result);
 }
 #ifdef __clang__
 #pragma clang diagnostic pop

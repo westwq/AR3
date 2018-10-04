@@ -300,72 +300,72 @@ void RegisterAllClasses()
 void RegisterBuiltinTypes();
 RegisterBuiltinTypes();
 	//Total: 76 non stripped classes
-	//0. ParticleSystem
-	RegisterUnityClass<ParticleSystem>("ParticleSystem");
-	//1. Unity::Component
-	RegisterUnityClass<Unity::Component>("Core");
-	//2. EditorExtension
-	RegisterUnityClass<EditorExtension>("Core");
-	//3. ParticleSystemRenderer
-	RegisterUnityClass<ParticleSystemRenderer>("ParticleSystem");
-	//4. Renderer
-	RegisterUnityClass<Renderer>("Core");
-	//5. Camera
+	//0. Camera
 	RegisterUnityClass<Camera>("Core");
-	//6. Behaviour
+	//1. Behaviour
 	RegisterUnityClass<Behaviour>("Core");
-	//7. Material
+	//2. Unity::Component
+	RegisterUnityClass<Unity::Component>("Core");
+	//3. EditorExtension
+	RegisterUnityClass<EditorExtension>("Core");
+	//4. Material
 	RegisterUnityClass<Material>("Core");
-	//8. NamedObject
+	//5. NamedObject
 	RegisterUnityClass<NamedObject>("Core");
-	//9. Texture2D
+	//6. Texture2D
 	RegisterUnityClass<Texture2D>("Core");
-	//10. Texture
+	//7. Texture
 	RegisterUnityClass<Texture>("Core");
-	//11. Cubemap
+	//8. Cubemap
 	RegisterUnityClass<Cubemap>("Core");
-	//12. Texture3D
+	//9. Texture3D
 	RegisterUnityClass<Texture3D>("Core");
-	//13. Texture2DArray
+	//10. Texture2DArray
 	RegisterUnityClass<Texture2DArray>("Core");
-	//14. RenderTexture
+	//11. RenderTexture
 	RegisterUnityClass<RenderTexture>("Core");
-	//15. LowerResBlitTexture
+	//12. LowerResBlitTexture
 	RegisterUnityClass<LowerResBlitTexture>("Core");
-	//16. PreloadData
+	//13. PreloadData
 	RegisterUnityClass<PreloadData>("Core");
-	//17. GameObject
+	//14. GameObject
 	RegisterUnityClass<GameObject>("Core");
-	//18. QualitySettings
+	//15. QualitySettings
 	RegisterUnityClass<QualitySettings>("Core");
-	//19. GlobalGameManager
+	//16. GlobalGameManager
 	RegisterUnityClass<GlobalGameManager>("Core");
-	//20. GameManager
+	//17. GameManager
 	RegisterUnityClass<GameManager>("Core");
-	//21. Shader
+	//18. Renderer
+	RegisterUnityClass<Renderer>("Core");
+	//19. Shader
 	RegisterUnityClass<Shader>("Core");
-	//22. MeshFilter
+	//20. MeshFilter
 	RegisterUnityClass<MeshFilter>("Core");
-	//23. MeshRenderer
+	//21. MeshRenderer
 	RegisterUnityClass<MeshRenderer>("Core");
-	//24. GUIElement
+	//22. GUIElement
 	RegisterUnityClass<GUIElement>("Core");
-	//25. GUILayer
+	//23. GUILayer
 	RegisterUnityClass<GUILayer>("Core");
-	//26. Mesh
+	//24. Mesh
 	RegisterUnityClass<Mesh>("Core");
-	//27. MonoBehaviour
+	//25. MonoBehaviour
 	RegisterUnityClass<MonoBehaviour>("Core");
-	//28. ReflectionProbe
+	//26. ReflectionProbe
 	RegisterUnityClass<ReflectionProbe>("Core");
-	//29. UI::RectTransform
+	//27. UI::RectTransform
 	RegisterUnityClass<UI::RectTransform>("Core");
-	//30. Transform
+	//28. Transform
 	RegisterUnityClass<Transform>("Core");
-	//31. Sprite
+	//29. Sprite
 	RegisterUnityClass<Sprite>("Core");
-	//32. SpriteAtlas
+	//30. SpriteAtlas
 	RegisterUnityClass<SpriteAtlas>("Core");
+	//31. ParticleSystem
+	RegisterUnityClass<ParticleSystem>("ParticleSystem");
+	//32. ParticleSystemRenderer
+	RegisterUnityClass<ParticleSystemRenderer>("ParticleSystem");
 	//33. Collider
 	RegisterUnityClass<Collider>("Physics");
 	//34. BoxCollider

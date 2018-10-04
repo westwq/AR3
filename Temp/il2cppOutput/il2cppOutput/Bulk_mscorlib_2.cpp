@@ -12467,14 +12467,18 @@ extern "C" IL2CPP_METHOD_ATTR String_t* NumberFormatInfo_get_NegativeInfinitySym
 extern "C" IL2CPP_METHOD_ATTR int32_t String_CompareOrdinal_m1012192092 (RuntimeObject * __this /* static, unused */, String_t* ___strA0, int32_t ___indexA1, String_t* ___strB2, int32_t ___indexB3, int32_t ___length4, const RuntimeMethod* method);
 // System.Boolean System.Double::ParseImpl(System.Byte*,System.Double&)
 extern "C" IL2CPP_METHOD_ATTR bool Double_ParseImpl_m3514935432 (RuntimeObject * __this /* static, unused */, uint8_t* ___byte_ptr0, double* ___value1, const RuntimeMethod* method);
+// System.Boolean System.Double::TryParse(System.String,System.Globalization.NumberStyles,System.IFormatProvider,System.Double&)
+extern "C" IL2CPP_METHOD_ATTR bool Double_TryParse_m623190659 (RuntimeObject * __this /* static, unused */, String_t* ___s0, int32_t ___style1, RuntimeObject* ___provider2, double* ___result3, const RuntimeMethod* method);
 // System.String System.NumberFormatter::NumberToString(System.Double,System.IFormatProvider)
 extern "C" IL2CPP_METHOD_ATTR String_t* NumberFormatter_NumberToString_m2966570377 (RuntimeObject * __this /* static, unused */, double ___value0, RuntimeObject* ___fp1, const RuntimeMethod* method);
 // System.String System.Double::ToString()
 extern "C" IL2CPP_METHOD_ATTR String_t* Double_ToString_m1229922074 (double* __this, const RuntimeMethod* method);
-// System.String System.NumberFormatter::NumberToString(System.String,System.Double,System.IFormatProvider)
-extern "C" IL2CPP_METHOD_ATTR String_t* NumberFormatter_NumberToString_m1373805200 (RuntimeObject * __this /* static, unused */, String_t* ___format0, double ___value1, RuntimeObject* ___fp2, const RuntimeMethod* method);
 // System.String System.Double::ToString(System.String,System.IFormatProvider)
 extern "C" IL2CPP_METHOD_ATTR String_t* Double_ToString_m1051753975 (double* __this, String_t* ___format0, RuntimeObject* ___provider1, const RuntimeMethod* method);
+// System.String System.Double::ToString(System.String)
+extern "C" IL2CPP_METHOD_ATTR String_t* Double_ToString_m896573572 (double* __this, String_t* ___format0, const RuntimeMethod* method);
+// System.String System.NumberFormatter::NumberToString(System.String,System.Double,System.IFormatProvider)
+extern "C" IL2CPP_METHOD_ATTR String_t* NumberFormatter_NumberToString_m1373805200 (RuntimeObject * __this /* static, unused */, String_t* ___format0, double ___value1, RuntimeObject* ___fp2, const RuntimeMethod* method);
 #ifdef __clang__
 #pragma clang diagnostic push
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
@@ -44492,6 +44496,42 @@ extern "C" IL2CPP_METHOD_ATTR bool Double_ParseImpl_m3514935432 (RuntimeObject *
 	using namespace il2cpp::icalls;
 	return  ((Double_ParseImpl_m3514935432_ftn)mscorlib::System::Double::ParseImpl) (___byte_ptr0, ___value1);
 }
+// System.Boolean System.Double::TryParse(System.String,System.Globalization.NumberStyles,System.IFormatProvider,System.Double&)
+extern "C" IL2CPP_METHOD_ATTR bool Double_TryParse_m623190659 (RuntimeObject * __this /* static, unused */, String_t* ___s0, int32_t ___style1, RuntimeObject* ___provider2, double* ___result3, const RuntimeMethod* method)
+{
+	Exception_t * V_0 = NULL;
+	{
+		String_t* L_0 = ___s0;
+		int32_t L_1 = ___style1;
+		RuntimeObject* L_2 = ___provider2;
+		double* L_3 = ___result3;
+		bool L_4 = Double_Parse_m2152196909(NULL /*static, unused*/, L_0, L_1, L_2, (bool)1, (double*)L_3, (Exception_t **)(&V_0), /*hidden argument*/NULL);
+		if (L_4)
+		{
+			goto IL_001e;
+		}
+	}
+	{
+		double* L_5 = ___result3;
+		*((double*)(L_5)) = (double)(0.0);
+		return (bool)0;
+	}
+
+IL_001e:
+	{
+		return (bool)1;
+	}
+}
+// System.Boolean System.Double::TryParse(System.String,System.Double&)
+extern "C" IL2CPP_METHOD_ATTR bool Double_TryParse_m3021978240 (RuntimeObject * __this /* static, unused */, String_t* ___s0, double* ___result1, const RuntimeMethod* method)
+{
+	{
+		String_t* L_0 = ___s0;
+		double* L_1 = ___result1;
+		bool L_2 = Double_TryParse_m623190659(NULL /*static, unused*/, L_0, ((int32_t)511), (RuntimeObject*)NULL, (double*)L_1, /*hidden argument*/NULL);
+		return L_2;
+	}
+}
 // System.String System.Double::ToString()
 extern "C" IL2CPP_METHOD_ATTR String_t* Double_ToString_m1229922074 (double* __this, const RuntimeMethod* method)
 {
@@ -44532,6 +44572,20 @@ extern "C"  String_t* Double_ToString_m3828879243_AdjustorThunk (RuntimeObject *
 {
 	double* _thisAdjusted = reinterpret_cast<double*>(__this + 1);
 	return Double_ToString_m3828879243(_thisAdjusted, ___provider0, method);
+}
+// System.String System.Double::ToString(System.String)
+extern "C" IL2CPP_METHOD_ATTR String_t* Double_ToString_m896573572 (double* __this, String_t* ___format0, const RuntimeMethod* method)
+{
+	{
+		String_t* L_0 = ___format0;
+		String_t* L_1 = Double_ToString_m1051753975((double*)__this, L_0, (RuntimeObject*)NULL, /*hidden argument*/NULL);
+		return L_1;
+	}
+}
+extern "C"  String_t* Double_ToString_m896573572_AdjustorThunk (RuntimeObject * __this, String_t* ___format0, const RuntimeMethod* method)
+{
+	double* _thisAdjusted = reinterpret_cast<double*>(__this + 1);
+	return Double_ToString_m896573572(_thisAdjusted, ___format0, method);
 }
 // System.String System.Double::ToString(System.String,System.IFormatProvider)
 extern "C" IL2CPP_METHOD_ATTR String_t* Double_ToString_m1051753975 (double* __this, String_t* ___format0, RuntimeObject* ___provider1, const RuntimeMethod* method)

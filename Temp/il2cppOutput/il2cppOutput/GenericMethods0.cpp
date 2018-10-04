@@ -182,8 +182,6 @@ struct IComparer_1_t278327120;
 struct IComparer_1_t2737267719;
 // System.Collections.Generic.IComparer`1<Vuforia.Image/PIXEL_FORMAT>
 struct IComparer_1_t169179618;
-// System.Collections.Generic.IComparer`1<Vuforia.TargetFinder/TargetSearchResult>
-struct IComparer_1_t401280796;
 // System.Collections.Generic.IEnumerable`1<System.Object>
 struct IEnumerable_1_t2059959053;
 // System.Collections.Generic.IEnumerable`1<Vuforia.TrackerData/TrackableResultData>
@@ -478,6 +476,8 @@ struct TypeU5BU5D_t3940880105;
 struct UInt16_t2177724958;
 // System.Void
 struct Void_t1185182177;
+// UnityEngine.AndroidJavaObject
+struct AndroidJavaObject_t4131667876;
 // UnityEngine.BeforeRenderHelper/OrderBlock[]
 struct OrderBlockU5BU5D_t2389202590;
 // UnityEngine.Behaviour
@@ -960,7 +960,6 @@ extern const RuntimeMethod* Array_compare_TisOrderBlock_t1585977831_m741358066_R
 extern const RuntimeMethod* Array_compare_TisPIXEL_FORMAT_t3209881435_m2818212599_RuntimeMethod_var;
 extern const RuntimeMethod* Array_compare_TisRaycastResult_t3360306849_m822404090_RuntimeMethod_var;
 extern const RuntimeMethod* Array_compare_TisRuntimeObject_m1541275189_RuntimeMethod_var;
-extern const RuntimeMethod* Array_compare_TisTargetSearchResult_t3441982613_m1626415162_RuntimeMethod_var;
 extern const RuntimeMethod* Array_compare_TisUICharInfo_t75501106_m1310495481_RuntimeMethod_var;
 extern const RuntimeMethod* Array_compare_TisUILineInfo_t4195266810_m954048995_RuntimeMethod_var;
 extern const RuntimeMethod* Array_compare_TisUIVertex_t4057497605_m3950502696_RuntimeMethod_var;
@@ -1307,7 +1306,6 @@ extern const uint32_t Array_compare_TisOrderBlock_t1585977831_m741358066_Metadat
 extern const uint32_t Array_compare_TisPIXEL_FORMAT_t3209881435_m2818212599_MetadataUsageId;
 extern const uint32_t Array_compare_TisRaycastResult_t3360306849_m822404090_MetadataUsageId;
 extern const uint32_t Array_compare_TisRuntimeObject_m1541275189_MetadataUsageId;
-extern const uint32_t Array_compare_TisTargetSearchResult_t3441982613_m1626415162_MetadataUsageId;
 extern const uint32_t Array_compare_TisUICharInfo_t75501106_m1310495481_MetadataUsageId;
 extern const uint32_t Array_compare_TisUILineInfo_t4195266810_m954048995_MetadataUsageId;
 extern const uint32_t Array_compare_TisUIVertex_t4057497605_m3950502696_MetadataUsageId;
@@ -4489,6 +4487,26 @@ struct ValueType_t3640485471_marshaled_com
 {
 };
 #endif // VALUETYPE_T3640485471_H
+#ifndef ANDROIDJAVAOBJECT_T4131667876_H
+#define ANDROIDJAVAOBJECT_T4131667876_H
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+
+// UnityEngine.AndroidJavaObject
+struct  AndroidJavaObject_t4131667876  : public RuntimeObject
+{
+public:
+
+public:
+};
+
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#endif // ANDROIDJAVAOBJECT_T4131667876_H
 #ifndef ABSTRACTEVENTDATA_T4171500731_H
 #define ABSTRACTEVENTDATA_T4171500731_H
 #ifdef __clang__
@@ -16776,6 +16794,43 @@ public:
 #pragma clang diagnostic pop
 #endif
 #endif // AUGMENTATIONSTATEMACHINEBEHAVIOUR_T3849818102_H
+// System.Object[]
+struct ObjectU5BU5D_t2843939325  : public RuntimeArray
+{
+public:
+	ALIGN_FIELD (8) RuntimeObject * m_Items[1];
+
+public:
+	inline RuntimeObject * GetAt(il2cpp_array_size_t index) const
+	{
+		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
+		return m_Items[index];
+	}
+	inline RuntimeObject ** GetAddressAt(il2cpp_array_size_t index)
+	{
+		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
+		return m_Items + index;
+	}
+	inline void SetAt(il2cpp_array_size_t index, RuntimeObject * value)
+	{
+		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
+		m_Items[index] = value;
+		Il2CppCodeGenWriteBarrier(m_Items + index, value);
+	}
+	inline RuntimeObject * GetAtUnchecked(il2cpp_array_size_t index) const
+	{
+		return m_Items[index];
+	}
+	inline RuntimeObject ** GetAddressAtUnchecked(il2cpp_array_size_t index)
+	{
+		return m_Items + index;
+	}
+	inline void SetAtUnchecked(il2cpp_array_size_t index, RuntimeObject * value)
+	{
+		m_Items[index] = value;
+		Il2CppCodeGenWriteBarrier(m_Items + index, value);
+	}
+};
 // System.Type[]
 struct TypeU5BU5D_t3940880105  : public RuntimeArray
 {
@@ -16881,43 +16936,6 @@ public:
 	inline void SetAtUnchecked(il2cpp_array_size_t index, double value)
 	{
 		m_Items[index] = value;
-	}
-};
-// System.Object[]
-struct ObjectU5BU5D_t2843939325  : public RuntimeArray
-{
-public:
-	ALIGN_FIELD (8) RuntimeObject * m_Items[1];
-
-public:
-	inline RuntimeObject * GetAt(il2cpp_array_size_t index) const
-	{
-		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
-		return m_Items[index];
-	}
-	inline RuntimeObject ** GetAddressAt(il2cpp_array_size_t index)
-	{
-		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
-		return m_Items + index;
-	}
-	inline void SetAt(il2cpp_array_size_t index, RuntimeObject * value)
-	{
-		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
-		m_Items[index] = value;
-		Il2CppCodeGenWriteBarrier(m_Items + index, value);
-	}
-	inline RuntimeObject * GetAtUnchecked(il2cpp_array_size_t index) const
-	{
-		return m_Items[index];
-	}
-	inline RuntimeObject ** GetAddressAtUnchecked(il2cpp_array_size_t index)
-	{
-		return m_Items + index;
-	}
-	inline void SetAtUnchecked(il2cpp_array_size_t index, RuntimeObject * value)
-	{
-		m_Items[index] = value;
-		Il2CppCodeGenWriteBarrier(m_Items + index, value);
 	}
 };
 // System.Reflection.CustomAttributeNamedArgument[]
@@ -18411,6 +18429,60 @@ extern "C" IL2CPP_METHOD_ATTR int32_t Array_GetUpperBound_m4018715963 (RuntimeAr
 extern "C" IL2CPP_METHOD_ATTR String_t* String_Format_m2844511972 (RuntimeObject * __this /* static, unused */, String_t* ___format0, RuntimeObject * ___arg01, const RuntimeMethod* method);
 // System.Void System.InvalidOperationException::.ctor(System.String)
 extern "C" IL2CPP_METHOD_ATTR void InvalidOperationException__ctor_m237278729 (InvalidOperationException_t56020091 * __this, String_t* ___message0, const RuntimeMethod* method);
+// FieldType UnityEngine.AndroidJavaObject::GetStatic<System.Object>(System.String)
+extern "C" IL2CPP_METHOD_ATTR RuntimeObject * AndroidJavaObject_GetStatic_TisRuntimeObject_m2684523189_gshared (AndroidJavaObject_t4131667876 * __this, String_t* ___fieldName0, const RuntimeMethod* method)
+{
+	RuntimeObject * V_0 = NULL;
+	RuntimeObject * V_1 = NULL;
+	{
+		il2cpp_codegen_initobj((&V_0), sizeof(RuntimeObject *));
+		RuntimeObject * L_0 = V_0;
+		V_1 = (RuntimeObject *)L_0;
+		goto IL_0010;
+	}
+
+IL_0010:
+	{
+		RuntimeObject * L_1 = V_1;
+		return L_1;
+	}
+}
+// ReturnType UnityEngine.AndroidJavaObject::Call<System.Object>(System.String,System.Object[])
+extern "C" IL2CPP_METHOD_ATTR RuntimeObject * AndroidJavaObject_Call_TisRuntimeObject_m446198187_gshared (AndroidJavaObject_t4131667876 * __this, String_t* ___methodName0, ObjectU5BU5D_t2843939325* ___args1, const RuntimeMethod* method)
+{
+	RuntimeObject * V_0 = NULL;
+	RuntimeObject * V_1 = NULL;
+	{
+		il2cpp_codegen_initobj((&V_0), sizeof(RuntimeObject *));
+		RuntimeObject * L_0 = V_0;
+		V_1 = (RuntimeObject *)L_0;
+		goto IL_0010;
+	}
+
+IL_0010:
+	{
+		RuntimeObject * L_1 = V_1;
+		return L_1;
+	}
+}
+// ReturnType UnityEngine.AndroidJavaObject::CallStatic<System.Object>(System.String,System.Object[])
+extern "C" IL2CPP_METHOD_ATTR RuntimeObject * AndroidJavaObject_CallStatic_TisRuntimeObject_m2512392144_gshared (AndroidJavaObject_t4131667876 * __this, String_t* ___methodName0, ObjectU5BU5D_t2843939325* ___args1, const RuntimeMethod* method)
+{
+	RuntimeObject * V_0 = NULL;
+	RuntimeObject * V_1 = NULL;
+	{
+		il2cpp_codegen_initobj((&V_0), sizeof(RuntimeObject *));
+		RuntimeObject * L_0 = V_0;
+		V_1 = (RuntimeObject *)L_0;
+		goto IL_0010;
+	}
+
+IL_0010:
+	{
+		RuntimeObject * L_1 = V_1;
+		return L_1;
+	}
+}
 // System.Action`1<T> AugmentationStateMachineBehaviour::GetMethod<System.Object>(T,System.String)
 extern "C" IL2CPP_METHOD_ATTR Action_1_t3252573759 * AugmentationStateMachineBehaviour_GetMethod_TisRuntimeObject_m1487955773_gshared (AugmentationStateMachineBehaviour_t3849818102 * __this, RuntimeObject * ___augmentation0, String_t* ___methodName1, const RuntimeMethod* method)
 {
@@ -46962,119 +47034,5 @@ IL_0083:
 		InvalidOperationException_t56020091 * L_31 = (InvalidOperationException_t56020091 *)il2cpp_codegen_object_new(InvalidOperationException_t56020091_il2cpp_TypeInfo_var);
 		InvalidOperationException__ctor_m237278729(L_31, (String_t*)L_30, /*hidden argument*/NULL);
 		IL2CPP_RAISE_MANAGED_EXCEPTION(L_31, NULL, Array_compare_TisPIXEL_FORMAT_t3209881435_m2818212599_RuntimeMethod_var);
-	}
-}
-// System.Int32 System.Array::compare<Vuforia.TargetFinder/TargetSearchResult>(T,T,System.Collections.Generic.IComparer`1<T>)
-extern "C" IL2CPP_METHOD_ATTR int32_t Array_compare_TisTargetSearchResult_t3441982613_m1626415162_gshared (RuntimeObject * __this /* static, unused */, TargetSearchResult_t3441982613  ___value10, TargetSearchResult_t3441982613  ___value21, RuntimeObject* ___comparer2, const RuntimeMethod* method)
-{
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
-	{
-		il2cpp_codegen_initialize_method (Array_compare_TisTargetSearchResult_t3441982613_m1626415162_MetadataUsageId);
-		s_Il2CppMethodInitialized = true;
-	}
-	String_t* V_0 = NULL;
-	int32_t G_B6_0 = 0;
-	{
-		RuntimeObject* L_0 = ___comparer2;
-		if (!L_0)
-		{
-			goto IL_000f;
-		}
-	}
-	{
-		RuntimeObject* L_1 = ___comparer2;
-		TargetSearchResult_t3441982613  L_2 = ___value10;
-		TargetSearchResult_t3441982613  L_3 = ___value21;
-		NullCheck((RuntimeObject*)L_1);
-		int32_t L_4 = InterfaceFuncInvoker2< int32_t, TargetSearchResult_t3441982613 , TargetSearchResult_t3441982613  >::Invoke(0 /* System.Int32 System.Collections.Generic.IComparer`1<Vuforia.TargetFinder/TargetSearchResult>::Compare(T,T) */, IL2CPP_RGCTX_DATA(method->rgctx_data, 0), (RuntimeObject*)L_1, (TargetSearchResult_t3441982613 )L_2, (TargetSearchResult_t3441982613 )L_3);
-		return L_4;
-	}
-
-IL_000f:
-	{
-		goto IL_002d;
-	}
-	{
-		goto IL_002b;
-	}
-	{
-		G_B6_0 = 0;
-		goto IL_002c;
-	}
-
-IL_002b:
-	{
-		G_B6_0 = (-1);
-	}
-
-IL_002c:
-	{
-		return G_B6_0;
-	}
-
-IL_002d:
-	{
-		goto IL_003a;
-	}
-	{
-		return 1;
-	}
-
-IL_003a:
-	{
-		TargetSearchResult_t3441982613  L_8 = ___value10;
-		TargetSearchResult_t3441982613  L_9 = L_8;
-		RuntimeObject * L_10 = Box(IL2CPP_RGCTX_DATA(method->rgctx_data, 1), &L_9);
-		if (!((RuntimeObject*)IsInst((RuntimeObject*)L_10, IL2CPP_RGCTX_DATA(method->rgctx_data, 2))))
-		{
-			goto IL_005c;
-		}
-	}
-	{
-		TargetSearchResult_t3441982613  L_11 = ___value10;
-		TargetSearchResult_t3441982613  L_12 = L_11;
-		RuntimeObject * L_13 = Box(IL2CPP_RGCTX_DATA(method->rgctx_data, 1), &L_12);
-		TargetSearchResult_t3441982613  L_14 = ___value21;
-		NullCheck((RuntimeObject*)((RuntimeObject*)Castclass((RuntimeObject*)L_13, IL2CPP_RGCTX_DATA(method->rgctx_data, 2))));
-		int32_t L_15 = InterfaceFuncInvoker1< int32_t, TargetSearchResult_t3441982613  >::Invoke(0 /* System.Int32 System.IComparable`1<Vuforia.TargetFinder/TargetSearchResult>::CompareTo(T) */, IL2CPP_RGCTX_DATA(method->rgctx_data, 2), (RuntimeObject*)((RuntimeObject*)Castclass((RuntimeObject*)L_13, IL2CPP_RGCTX_DATA(method->rgctx_data, 2))), (TargetSearchResult_t3441982613 )L_14);
-		return L_15;
-	}
-
-IL_005c:
-	{
-		TargetSearchResult_t3441982613  L_16 = ___value10;
-		TargetSearchResult_t3441982613  L_17 = L_16;
-		RuntimeObject * L_18 = Box(IL2CPP_RGCTX_DATA(method->rgctx_data, 1), &L_17);
-		if (!((RuntimeObject*)IsInst((RuntimeObject*)L_18, IComparable_t36111218_il2cpp_TypeInfo_var)))
-		{
-			goto IL_0083;
-		}
-	}
-	{
-		TargetSearchResult_t3441982613  L_19 = ___value10;
-		TargetSearchResult_t3441982613  L_20 = L_19;
-		RuntimeObject * L_21 = Box(IL2CPP_RGCTX_DATA(method->rgctx_data, 1), &L_20);
-		TargetSearchResult_t3441982613  L_22 = ___value21;
-		TargetSearchResult_t3441982613  L_23 = L_22;
-		RuntimeObject * L_24 = Box(IL2CPP_RGCTX_DATA(method->rgctx_data, 1), &L_23);
-		NullCheck((RuntimeObject*)((RuntimeObject*)Castclass((RuntimeObject*)L_21, IComparable_t36111218_il2cpp_TypeInfo_var)));
-		int32_t L_25 = InterfaceFuncInvoker1< int32_t, RuntimeObject * >::Invoke(0 /* System.Int32 System.IComparable::CompareTo(System.Object) */, IComparable_t36111218_il2cpp_TypeInfo_var, (RuntimeObject*)((RuntimeObject*)Castclass((RuntimeObject*)L_21, IComparable_t36111218_il2cpp_TypeInfo_var)), (RuntimeObject *)L_24);
-		return L_25;
-	}
-
-IL_0083:
-	{
-		String_t* L_26 = Locale_GetText_m3374010885(NULL /*static, unused*/, (String_t*)_stringLiteral929511772, /*hidden argument*/NULL);
-		V_0 = (String_t*)L_26;
-		String_t* L_27 = V_0;
-		RuntimeTypeHandle_t3027515415  L_28 = { reinterpret_cast<intptr_t> (IL2CPP_RGCTX_TYPE(method->rgctx_data, 3)) };
-		IL2CPP_RUNTIME_CLASS_INIT(Type_t_il2cpp_TypeInfo_var);
-		Type_t * L_29 = Type_GetTypeFromHandle_m1620074514(NULL /*static, unused*/, (RuntimeTypeHandle_t3027515415 )L_28, /*hidden argument*/NULL);
-		IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
-		String_t* L_30 = String_Format_m2844511972(NULL /*static, unused*/, (String_t*)L_27, (RuntimeObject *)L_29, /*hidden argument*/NULL);
-		InvalidOperationException_t56020091 * L_31 = (InvalidOperationException_t56020091 *)il2cpp_codegen_object_new(InvalidOperationException_t56020091_il2cpp_TypeInfo_var);
-		InvalidOperationException__ctor_m237278729(L_31, (String_t*)L_30, /*hidden argument*/NULL);
-		IL2CPP_RAISE_MANAGED_EXCEPTION(L_31, NULL, Array_compare_TisTargetSearchResult_t3441982613_m1626415162_RuntimeMethod_var);
 	}
 }
