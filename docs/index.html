@@ -4,8 +4,19 @@
 <script src="aframe-ar.js"> </script>
   <body style='margin : 0px; overflow: hidden;'>
     <a-scene embedded arjs>
+	<!-- define your gltf asset -->
+<a-assets>
+  <a-asset-item id="tree" src="https://westwq.github.io/AR3/Lowpoly_tree_sample.glt"></a-asset-item>
+</a-assets>
   	<a-marker preset="hiro">
-            <a-box position='0 0.5 0' material='color: black;'></a-box>
+            <!--<a-box position="0 0.5 0" material="opacity: 0.5; side:double; color:red;" rotation="" scale="" visible="" geometry="">
+				<a-torus-knot radius="0.26" radius-tubular="0.05" position="" rotation="" scale="" visible="" material="" geometry="">
+					<a-animation attribute="rotation" to="360 0 0" dur="5000" easing="linear" repeat="indefinite"></a-animation>
+				</a-torus-knot>
+			</a-box>-->
+			
+<!-- use your gltf model -->
+<a-entity gltf-model="##tree"></a-entity>
   	</a-marker>
   	<a-entity camera></a-entity>
     </a-scene>
