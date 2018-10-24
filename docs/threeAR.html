@@ -159,7 +159,8 @@
 				//scene.add( light );
 				// model
 				var loader = new THREE.GLTFLoader();
-				loader.load( 'https://threejs.org/examples/models/gltf/DamagedHelmet/glTF/DamagedHelmet.gltf', function ( gltf ) {
+				//loader.load( 'https://threejs.org/examples/models/gltf/DamagedHelmet/glTF/DamagedHelmet.gltf', function ( gltf ) {
+				loader.load( 'scene.gltf', function ( gltf ) {
 					/**gltf.scene.traverse( function ( child ) {
 						if ( child.isMesh ) {
 							child.material.envMap = envMap;
