@@ -160,11 +160,11 @@
 				// model
 				var loader = new THREE.GLTFLoader();
 				loader.load( 'https://threejs.org/examples/models/gltf/DamagedHelmet/glTF/DamagedHelmet.gltf', function ( gltf ) {
-					gltf.scene.traverse( function ( child ) {
+					/**gltf.scene.traverse( function ( child ) {
 						if ( child.isMesh ) {
 							child.material.envMap = envMap;
 						}
-					} );
+					} );**/
 					arWorldRoot.add( gltf.scene );
 				}, undefined, function ( e ) {
 					console.error( e );
