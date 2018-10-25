@@ -10,12 +10,18 @@
 	THREEx.ArToolkitContext.baseURL = 'https://rawgit.com/jeromeetienne/ar.js/master/three.js/'
 </script>
 
+	<a-assets>
+		<a-asset-item id="cube" src="ninja.glb"></a-asset-item>
+	</a-assets>
 
 <body style='margin : 0px; overflow: hidden;'>
   <a-scene embedded arjs='sourceType: webcam;'>
     <!-- handle marker with your own pattern -->
     <a-marker type='pattern' url='pattern-hiro.patt'>
-      <a-box position='0 0.5 0' material='color: red;'></a-box>
+      <a-entity gltf-model="#cube"
+		  position="0 1.43 0"
+		  scale="0.10 0.10 0.10"></a-entity>
+	
     </a-marker>
 
     <!-- handle marker with hiro preset -->
