@@ -21,10 +21,15 @@
 	</a-assets>
 	  
     <!-- handle marker with your own pattern -->
-    <a-marker type='pattern' url='MyCustomBall.patt'>
-      <!-- <a-entity gltf-model="#doll"
-		  position="0 1 0"
-		  scale="0.10 0.10 0.10"></a-entity> -->
+    <!--<a-marker type='pattern' url='MyCustomBall.patt'>
+      <a-entity gltf-model="#cube" animation-mixer
+		  position="0 0 0"
+		  scale="0.2 0.2 0.2"></a-entity>
+	    
+	<a-text value="Welcome AR Hello World!" position="-0.5 0 0.5" rotation="-45 0 0" height="3" width="3" color="white"></a-text>	
+    </a-marker>-->
+	  
+	  <a-marker preset='custom' url='MyCustomBall.patt'>
 	    <a-entity gltf-model="#cube" animation-mixer
 		  position="0 0 0"
 		  scale="0.2 0.2 0.2"></a-entity>
