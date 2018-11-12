@@ -64,15 +64,22 @@
 	<a-text value="MY OWN MARKER!!" position="-0.5 0 0.5" rotation="-45 0 0" height="3" width="3" color="white"></a-text>	
     </a-marker>
 
-    <!-- handle marker with hiro preset
-    <a-marker preset='hiro'>
-      <a-box position='0 0.5 0' material='color: green;'></a-box>
-    </a-marker>-->
-
-    <!-- handle barcode marker -->
-    <a-marker type='barcode' value='5'>
-      <a-box position='0 0.5 0' material='color: blue;'></a-box>
+    
+	  
+	  <!-- Start of handle RedCamp Markers here -->
+    
+	  <a-marker type='pattern' url='ICT_logo_pattern-marker.patt'>
+	    <a-entity gltf-model="#knight" animation-mixer
+		  position="0 0 0"
+		  scale="0.2 0.2 0.2"></a-entity>
+		  
+		  <a-entity gltf-model="#All" animation-mixer
+		  position="2 0 0"
+		  scale="0.2 0.2 0.2"></a-entity>
+	    
+	<a-text value="Welcome to ICT!!" position="-0.5 0 0.5" rotation="-45 0 0" height="3" width="3" color="white"></a-text>	
     </a-marker>
+	  
 
     <!-- add a simple camera -->
     <a-entity camera></a-entity>
