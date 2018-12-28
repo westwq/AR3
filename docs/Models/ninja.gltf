@@ -1042,12 +1042,13 @@
           0.800000011920929,
           1
         ],
-        "metallicFactor": 0.5,
-        "roughnessFactor": 0.5,
+        "metallicFactor": 0.0,
+        "roughnessFactor": 1.0,
         "baseColorTexture": {
           "index": 0
         }
       },
+
       "name": "ninja_tex"
     },
     {
@@ -1058,12 +1059,13 @@
           0.800000011920929,
           1
         ],
-        "metallicFactor": 0.5,
-        "roughnessFactor": 0.5,
+        "metallicFactor": 0.0,
+        "roughnessFactor": 1.0,
         "baseColorTexture": {
           "index": 0
         }
       },
+
       "name": "ninja_tex"
     }
   ],
